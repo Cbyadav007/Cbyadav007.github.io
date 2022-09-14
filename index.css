@@ -1,0 +1,358 @@
+body{
+    background-color: rgb(245, 226, 117) ;
+}
+#navbar{
+    /* border: 1px solid red; */
+    height: 60px;
+    width:auto;
+    background-color:black;
+  
+}
+#home{
+    width:300px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    /* background-color: black; */
+    /* border-radius: 10px; */
+  margin-left: 20px;
+}
+.home:hover{
+    color:greenyellow;
+}
+.home{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#project{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+
+}
+.project:hover{
+    color:orange;
+}
+.project{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+}
+.about:hover{
+    color:orange;
+}
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 22px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#skills{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+ 
+}
+.skills:hover{
+    color:orange;
+}
+.skills{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#container{
+    display: flex;
+    justify-content:space-between;
+}
+#rcont{
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid green; */
+    width:50%;
+    height:60px;
+}
+#box{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:450px;
+    /* border:1px solid red; */
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: rgb(49, 55, 66);
+}
+#lbox{
+    width:45%;
+    height:420px;
+    /* border:1px solid red; */
+    background-color: rgb(253, 243, 188);
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lbox h2{
+    font-family: 'Courier New', Courier, monospace;
+    overflow:hidden;
+}
+#lbox p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#skilllogo{
+    margin-top: -15px;
+    justify-content: space-evenly;
+}
+.html{
+    width:120px;
+    height:110px;
+    margin-top: 20px;
+
+}
+
+.css{
+    width:110px;
+    height:110px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.js{
+    width:130px;
+    height:130px;
+    margin-top: 10px;
+
+}
+.java{
+    width:130px;
+    margin-left: 0px;
+    height:110px;
+    margin-top: 20px;
+}
+#skilllogo{
+    display:flex;
+}
+#rbox{
+    width:45%;
+    height:420px;
+    border:1px solid green;
+}
+#resume{
+    margin-top: 20px;
+    margin-left: 250px;
+    
+    width:70px;
+}
+.resume{
+    padding:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.resume:hover{
+    background-color: greenyellow;
+}
+#aboutbox{
+    width:85%;
+    height:350px;
+    margin:auto;
+    /* border:1px solid black; */
+    margin-top: 50px;
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(133, 196, 248);
+    border-radius: 5px;
+}
+.aboutpic{
+    width:250px;
+    border:3px solid black;
+    border-radius: 150px;
+}
+#labout{
+    width:35%;
+    height:100%;
+    /* border:1px solid red; */
+    text-align: center;
+}
+#smalllogo{
+    display:flex;
+}
+#agit{
+    margin-top: -90px;
+    margin-left: 60px;
+}
+#alinked{
+    margin-top: -25px;
+    margin-left: 75px;
+}
+#amail{
+    
+    margin-top: -90px;
+    margin-left: 70px;
+}
+.agit{
+    width:40px;
+}
+.alinked{
+    border-radius: 5px;
+    width:40px;
+}
+.amail{
+    border-radius: 5px;
+    width:40px;
+}
+#rabout{
+    width:60%;
+    height:100%;
+    /* border:1px solid green; */
+}
+#am{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#rabout div{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#edubox{
+    width:90%;
+    height:720px;
+    /* border:1px solid red; */
+    margin-top: 50px;
+    margin: auto;
+    padding:20px;
+    margin-top: 50px;
+    background-color: rgb(63, 56, 70);
+    border-radius: 10px;
+}
+#education{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 200px 200px 200px;
+}
+#eduhead{
+    width:200px;
+    background-color: rgb(241, 241, 111);
+    border:1px solid black;
+    margin:auto;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+#emasai{
+    width:90%;
+    height:170px;
+    border:1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#emtech{
+    width:90%;
+    height:170px;
+    border:1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#ebtech{
+    width:90%;
+    height:170px;
+    border:1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#e12{
+    width:90%;
+    height:170px;
+    border:1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#e10{
+    width:90%;
+    height:170px;
+    border:1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer{
+    text-align: center;
+    width:100%;
+    height:40px;
+    /* border:1px solid red; */
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width:980px)
+{
+  
+   #box{
+    flex-direction: column;
+  
+    height:900px;
+   }
+   #lbox{
+    width:90%;
+    
+    margin:auto;
+   }
+   #rbox{
+    width:90%;
+    
+    margin:auto;
+   }
+   #resume{
+    margin-left: 400px;
+   }
+}
+
+
