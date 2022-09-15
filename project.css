@@ -124,7 +124,7 @@ body{
     padding:30px;
     row-gap: 50px;
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 350px 390px;
+    grid-template-rows: 375px 390px;
   /* background-color: rgb(3, 3, 44); */
     /* border:1px solid red; */
     margin-top: 50px;
@@ -208,7 +208,7 @@ body{
 .rp1{
     margin-top: 7px;
     width:575px;
-    height:315px;
+    height:340px;
     transition: transform .5s;
 }
 #rp2{
