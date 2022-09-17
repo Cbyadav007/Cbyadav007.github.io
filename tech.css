@@ -1,5 +1,5 @@
 body{
-    background-color:rgba(255, 208, 0, 0.301);
+    background-color:rgba(4, 0, 255, 0.158);
 }
 #navbar{
     /* border: 1px solid red; */
@@ -59,7 +59,7 @@ body{
     font-size: 20px;
     font-weight: bolder;
     margin-left: 22px;
-    color: white;
+    color:white;
     font-family: 'Courier New', Courier, monospace;
 }
 #skills{
@@ -69,10 +69,18 @@ body{
     margin-top: 13px;
  
 }
+.skills{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;  
+}
 .skills:hover{
     color:orange;
 }
-.skills{
+.techs{
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
@@ -85,25 +93,10 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
-}
-.techs{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-    margin-left: 25px;
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
+   
 }
 #tech:hover{
     color:orange;  
-}
-.stats{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-    margin-left: 25px;
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
 }
 #container{
     display: flex;
@@ -127,7 +120,7 @@ body{
     margin-top: 50px;
    background-color: white;
 }
-#heading{
+#techheading{
     width:100%;
     height:100px;
     /* border:1px solid red; */
@@ -135,21 +128,23 @@ body{
     display: flex;
     justify-content:center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color:rgba(255, 174, 0, 0.5);
+    background-color:rgba(138, 255, 5, 0.534);
 }
-.heading{
-    width:250px;
+.techheading{
+    width:210px;
     height:30px;
     /* margin:auto; */
     font-size: 28px;
     font-weight: bolder;
     font-family:'Courier New', Courier, monospace;
     margin-top: 35px;
+    
     /* border:1px solid green; */
 }
 .slogo{
     width:70px;
-    margin-top: 22px;
+    margin-top: 28px;
+    border-radius: 10px;
 }
 #front{
     /* border-bottom: 1px solid black; */
@@ -172,10 +167,19 @@ body{
     padding-right: 60px;
     margin-top: 30px;
 }
+#fhtml{
+    /* border:1px solid red; */
+    width:120px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
 #fhtml:hover{
     transition: transform .5s;
     transform: scale(1.1);
-    background-color: green;
+    background-color: yellow;
 }
 #fcss:hover{
     transition: transform .5s;
@@ -185,20 +189,12 @@ body{
 #fjs:hover{
     transition: transform .5s;
     transform: scale(1.1);
-    background-color: green;
+    background-color:green;
 }
 #bjava:hover{
     transition: transform .5s;
     transform: scale(1.1);
-    background-color: yellow;
-}
-#fhtml{
-    /* border:1px solid red; */
-    width:120px;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:yellow;
 }
 #fcss{
     /* border:1px solid red; */

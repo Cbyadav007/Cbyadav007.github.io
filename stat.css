@@ -1,5 +1,5 @@
 body{
-    background-color:rgba(255, 208, 0, 0.301);
+    background-color:rgba(0, 0, 255, 0.308);
 }
 #navbar{
     /* border: 1px solid red; */
@@ -77,7 +77,7 @@ body{
     font-size: 20px;
     font-weight: bolder;
     margin-left: 25px;
-    color:greenyellow;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 #tech{
@@ -85,14 +85,6 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
-}
-.techs{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-    margin-left: 25px;
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
 }
 #tech:hover{
     color:orange;  
@@ -102,9 +94,10 @@ body{
     font-size: 20px;
     font-weight: bolder;
     margin-left: 25px;
-    color:white;
+    color:greenyellow;
     font-family: 'Courier New', Courier, monospace;
 }
+
 #container{
     display: flex;
     justify-content:space-between;
@@ -119,15 +112,15 @@ body{
 #frontbox{
     /* border:1px solid red; */
     width:80%;
-    height:240px;
+    height:260px;
     margin:auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     padding-top: 10px;
     margin-top: 50px;
-   background-color: white;
+   background-color:rgb(1, 1, 19);
 }
-#heading{
+#techheading{
     width:100%;
     height:100px;
     /* border:1px solid red; */
@@ -135,10 +128,10 @@ body{
     display: flex;
     justify-content:center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color:rgba(255, 174, 0, 0.5);
+    background-color:rgb(255, 255, 131);
 }
-.heading{
-    width:250px;
+.techheading{
+    width:210px;
     height:30px;
     /* margin:auto; */
     font-size: 28px;
@@ -149,7 +142,7 @@ body{
 }
 .slogo{
     width:70px;
-    margin-top: 22px;
+    margin-top: 28px;
 }
 #front{
     /* border-bottom: 1px solid black; */
@@ -162,113 +155,129 @@ body{
     padding-left: 20px;
    
 }
-#hr1{
-    margin-top: -5px;
-}
+
 #frontskill{
     display:flex;
     justify-content: space-between;
     padding-left: 60px;
     padding-right: 60px;
     margin-top: 30px;
-}
-#fhtml:hover{
-    transition: transform .5s;
-    transform: scale(1.1);
-    background-color: green;
-}
-#fcss:hover{
-    transition: transform .5s;
-    transform: scale(1.1);
-    background-color: green;
-}
-#fjs:hover{
-    transition: transform .5s;
-    transform: scale(1.1);
-    background-color: green;
-}
-#bjava:hover{
-    transition: transform .5s;
-    transform: scale(1.1);
-    background-color: yellow;
+   
 }
 #fhtml{
     /* border:1px solid red; */
-    width:120px;
+    width:150px;
+    height:170px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: white; */
+    color:white;
 }
 #fcss{
     /* border:1px solid red; */
-    width:120px;
+    width:150px;
+    height:170px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color:white;
 }
 #fjs{
     /* border: 1px solid red; */
-    width:120px;
+    width:150px;
+    height:170px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.fhtml{
-    width:120px;
-}
-.fcss{
-    width:85px;
-    margin-left: 18px;
-    
-}
-.fjs{
-    width:190px;
-    margin-left: -35px;
-}
-
-#backbox{
-    width:80%;
-    height:240px;
-    margin:auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
-    padding-top: 10px;
-    margin-top: 50px;
-   background-color: white;
-}
-#back{
-    width:100%;
-    height:40px;
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 10px;
-    padding-left: 20px;
-}
-#hr2{
-    margin-top: -5px;
-}
-#backendSkill{
-    display:flex;
-    justify-content: space-between;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-top: 30px;
+    color:white;
 }
 #bjava{
-    width:120px;
+    width:150px;
+    height:170px;
+    color:white;
+}
+
+
+#up{
+    width:40%;
+    /* height:60%; */
+    padding:30px 10px 30px 10px;
+    border:5px solid rgb(0, 26, 255);
+    margin:auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+#up:hover{
+    transition: transform .3s;
+    transform: scale(1.1);
+    background-color: yellow;
+    border: 5px solid orangered;
+    color:black
+}
+#mid{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#mid:hover{
+color:greenyellow
+}
+#down{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#bjava{
+    width:150px;
+    height:170px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.bjava{
-    width:120px;
-    height:120px;
+
+#cale{
+    margin-top: 50px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+#gcal{
+    width:115px;
+
+    padding:20px 80px 20px 30px;
+    /* border:1px solid red; */
+    margin-bottom: 50px;
+    background-color: rgb(255, 115, 0);
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 30px;
+}
+.darrow{
+    width:50px;
+    margin-left: 110px;
+    margin-top: -40px;
+}
+
+
+
 #footer{
     text-align: center;
     width:100%;

@@ -59,8 +59,17 @@ body{
     font-size: 20px;
     font-weight: bolder;
     margin-left: 22px;
-    color: white;
+    color: greenyellow;
     font-family: 'Courier New', Courier, monospace;
+}
+#tech{
+    width:150px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+}
+#tech:hover{
+    color:orange;  
 }
 #skills{
     width:100px;
@@ -123,11 +132,12 @@ body{
     margin-top: -15px;
     justify-content: space-evenly;
 }
+
 .html{
     width:120px;
     height:110px;
     margin-top: 20px;
-
+    border-radius: 10px;
 }
 
 .css{
@@ -135,19 +145,20 @@ body{
     height:110px;
     margin-left: 10px;
     margin-top: 20px;
-    
+    border-radius: 10px;
 }
 .js{
     width:130px;
     height:130px;
     margin-top: 10px;
-
+    border-radius: 10px;
 }
 .java{
     width:130px;
     margin-left: 0px;
     height:110px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 #skilllogo{
     display:flex;
@@ -344,7 +355,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-@media only screen and (max-width:980px)
+@media all and (min-width:451px) and (max-width:980px)
 {
   
    #box{
