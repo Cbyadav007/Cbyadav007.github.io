@@ -1,0 +1,296 @@
+body{
+    /* background-color:rgb(139, 231, 139); */
+    background-color: black;
+}
+#navbar{
+    /* border: 1px solid red; */
+    height: 60px;
+    width:auto;
+    background-color:black;
+  
+}
+#home{
+    width:300px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    /* background-color: black; */
+    /* border-radius: 10px; */
+  margin-left: 20px;
+}
+.home:hover{
+    color:greenyellow;
+}
+.home{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#project{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -20px;
+
+}
+.project:hover{
+    color:orange;
+}
+.project{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+}
+.about:hover{
+    color:orange;
+}
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 22px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tech{
+    width:148px;
+    height:30px;
+    /* border:1px solid white; */
+    margin-top: 13px;
+    margin-left: -40px;
+}
+#tech:hover{
+    color:orange;  
+}
+#skills{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -20px;
+ 
+}
+.skills:hover{
+    color:orange;
+}
+.skills{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#stat{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -20px;
+}
+#cont{
+    margin-top: 13px;
+    margin-left: 40px;
+}
+.cont{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    /* margin-left: 25px; */
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cont:hover{
+    color:orange;  
+}
+#container{
+    display: flex;
+    justify-content:space-between;
+}
+#rcont{
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid green; */
+    width:60%;
+    height:60px;
+}
+
+#conthead{
+    width:100%;
+    /* height:100px; */
+    padding:30px 0px 20px 0px;
+    /* border:1px solid red; */
+    background-color: darkslateblue;
+    border-radius: 20px;
+}
+#contact{
+    width: 260px;
+    margin:auto;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.contpic{
+    width:200px;
+    margin-left: 0px;
+}
+#box{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:450px;
+    /* border:1px solid red; */
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: rgb(49, 55, 66);
+}
+#aboutbox{
+    width:90%;
+    height:360px;
+    margin:auto;
+    /* border:1px solid red; */
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: rgb(248, 248, 95);
+    border-radius: 5px;
+}
+    .aboutpic{
+        width:250px;
+        border:3px solid black;
+        border-radius: 150px;
+    }
+    #labout{
+        width:35%;
+        height:86%;
+        /* border:1px solid red; */
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 10px;
+        background-color: darkorange;
+    }
+    #smalllogo{
+        display:flex;
+    }
+    #agit{
+        margin-top: -90px;
+        margin-left: 70px;
+    }
+    #alinked{
+        margin-top: -25px;
+        margin-left: 75px;
+    }
+    #amail{
+        
+        margin-top: -90px;
+        margin-left: 70px;
+    }
+    .agit{
+        width:40px;
+    }
+    .alinked{
+        border-radius: 5px;
+        width:40px;
+    }
+    .amail{
+        border-radius: 5px;
+        width:40px;
+    }
+
+.cbphoto{
+    width:390px;
+    border-radius: 30px;
+}
+#cbphoto{
+    text-align: center;
+}
+#rbox{
+    width:60%;
+    height:80%;
+    /* border:1px solid green; */
+padding-top: 30px;
+padding-bottom: 10px;
+border-radius: 10px;
+background-color: lawngreen;
+
+}
+.ee{
+    width:40px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.nn{
+    width:40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.gg{
+    width:40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.ll{
+    width:40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.aa{
+    width:40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.see{
+    margin-top: -30px;
+    margin-left: 130px;
+}
+.snn{
+    margin-top: -30px;
+    margin-left: 130px; 
+}
+.sgg{
+    margin-top: -30px;
+    margin-left: 130px; 
+}
+.sll{
+    margin-top: -30px;
+    margin-left: 130px; 
+}
+.saa{
+    margin-top: -30px;
+    margin-left: 130px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#footer{
+    text-align: center;
+    width:100%;
+    height:40px;
+    /* border:1px solid red; */
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

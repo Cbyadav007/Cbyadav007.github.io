@@ -32,6 +32,7 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
+    margin-left: -20px;
 
 }
 .project:hover{
@@ -63,10 +64,11 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 #tech{
-    width:150px;
+    width:148px;
     height:30px;
-    /* border:1px solid black; */
+    /* border:1px solid white; */
     margin-top: 13px;
+    margin-left: -40px;
 }
 #tech:hover{
     color:orange;  
@@ -76,6 +78,7 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
+    margin-left: -20px;
  
 }
 .skills:hover{
@@ -89,6 +92,20 @@ body{
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+#stat{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -20px;
+}
+#cont{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.cont:hover{
+    color:orange;  
+}
 #container{
     display: flex;
     justify-content:space-between;
@@ -97,7 +114,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     /* border:1px solid green; */
-    width:50%;
+    width:60%;
     height:60px;
 }
 #box{
@@ -192,6 +209,14 @@ body{
 }
 #cbphoto{
     text-align: center;
+}
+.cont{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 #aboutbox{
     width:85%;

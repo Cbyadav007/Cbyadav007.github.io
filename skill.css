@@ -32,7 +32,7 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
-
+margin-left: 10px;
 }
 .project:hover{
     color:orange;
@@ -50,6 +50,7 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
+    margin-left: 20px;
 }
 .about:hover{
     color:orange;
@@ -67,6 +68,7 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
+    margin-left: 0px;
  
 }
 .skills:hover{
@@ -85,6 +87,7 @@ body{
     height:30px;
     /* border:1px solid black; */
     margin-top: 13px;
+    margin-left: -20px;
 }
 .techs{
     text-decoration: none;
@@ -97,6 +100,10 @@ body{
 #tech:hover{
     color:orange;  
 }
+#stat{
+    margin-top:13px;
+    margin-left: 10px;
+}
 .stats{
     text-decoration: none;
     font-size: 20px;
@@ -104,6 +111,21 @@ body{
     margin-left: 25px;
     color:white;
     font-family: 'Courier New', Courier, monospace;
+}
+.cont{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cont{
+    margin-top: 13px;
+    margin-left: 0px;
+}
+.cont:hover{
+    color:orange;  
 }
 #container{
     display: flex;
@@ -113,7 +135,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     /* border:1px solid green; */
-    width:50%;
+    width:60%;
     height:60px;
 }
 #frontbox{
