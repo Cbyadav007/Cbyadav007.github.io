@@ -7,7 +7,25 @@ body{
     height: 60px;
     width:auto;
     background-color:black;
-  
+    margin-top: -60px;
+    width:98.8%;
+    position:fixed;
+}
+#lcont{
+    width:40%;
+    display:flex
+}
+#resumenav{
+    padding:10px 5px 10px 5px;
+}
+.resumenav{
+    padding:10px 10px 10px 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.resumenav:hover{
+    background-color: green;
+    color:white;
 }
 #home{
     width:300px;
@@ -130,10 +148,11 @@ body{
 #conthead{
     width:100%;
     /* height:100px; */
-    padding:30px 0px 20px 0px;
+    padding:0px 0px 20px 0px;
     /* border:1px solid red; */
     background-color: darkslateblue;
     border-radius: 20px;
+    margin-top: 60px;
 }
 #contact{
     width: 260px;
@@ -156,68 +175,58 @@ body{
     padding-top: 30px;
     background-color: rgb(49, 55, 66);
 }
-#aboutbox{
+#formbox{
+    /* border:1px solid red; */
+    margin-top: 30px;
+    background-color: rgb(63, 56, 70);
+    border-radius: 10px;
+    height:500px;
+    margin-bottom: 50px;
+}
+
+#formhead{
+    /* border:1px solid red; */
+    width:20%;
+    height: 40px;
+    background-color: rgb(241, 241, 111);
+    /* border:1px solid black; */
+    margin:auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+#formhead:hover{
+    background-color:greenyellow;
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+
+#aboutfmbox{
     width:90%;
     height:360px;
     margin:auto;
     /* border:1px solid red; */
-    margin-top: 50px;
+    margin-top: 30px;
     display:flex;
     justify-content: space-around;
     padding-top: 30px;
     background-color: rgb(248, 248, 95);
     border-radius: 5px;
 }
-    .aboutpic{
-        width:250px;
-        border:3px solid black;
-        border-radius: 150px;
-    }
-    #labout{
-        width:35%;
-        height:86%;
-        /* border:1px solid red; */
-        text-align: center;
-        padding-top: 20px;
-        border-radius: 10px;
-        background-color: darkorange;
-    }
-    #smalllogo{
-        display:flex;
-    }
-    #agit{
-        margin-top: -90px;
-        margin-left: 70px;
-    }
-    #alinked{
-        margin-top: -25px;
-        margin-left: 75px;
-    }
-    #amail{
-        
-        margin-top: -90px;
-        margin-left: 70px;
-    }
-    .agit{
-        width:40px;
-    }
-    .alinked{
-        border-radius: 5px;
-        width:40px;
-    }
-    .amail{
-        border-radius: 5px;
-        width:40px;
-    }
-
-.cbphoto{
-    width:390px;
-    border-radius: 30px;
-}
-#cbphoto{
+#lfmabout{
+    width:35%;
+    height:86%;
+    /* border:1px solid red; */
     text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: darkorange;
 }
-#rbox{
+#rfmbox{
     width:60%;
     height:80%;
     /* border:1px solid green; */
@@ -276,14 +285,42 @@ background-color: lawngreen;
     margin-top: -30px;
     margin-left: 130px; 
 }
-a{
+/* a{
     text-decoration: none;
     color: black;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 
+} */
+form div{
+    width:90%;
+    /* border:1px solid black; */
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+form input{
+    width:70%;
+    height:40px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#fmessage{
+    width:94%;
+}
+#formbutton{
+    background-color: rgb(10, 248, 185);
+    padding: 10px 20px 10px 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
 }
 
+#rfmbox a{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+}
 #footer{
     text-align: center;
     width:100%;
@@ -293,4 +330,122 @@ a{
     padding-top: 20px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media only screen and (max-width: 700px)
+{
+    
+    #navbar{
+        width:100%;
+        height:50px;
+        margin-top: -110px;
+    }
+    #container{
+        position: fixed;
+        flex-direction: column;
+        width:100%;
+        /* margin-top: -70px; */
+        
+        /* margin-right: 50px; */
+    }
+    #lcont{
+        width:100%;
+        background-color: black;
+    }
+    #rcont{
+        /* flex-direction: column; */
+        /* margin-top: -30px; */
+        background-color: black;
+        width:100%;
+        height:40px;
+        /* justify-content: space-between; */
+        /* padding-left: 20px; */
+    }
+    #about{
+        margin-left: -45px;
+        
+    }
+    .about{
+        font-size: large;
+    }
+    #skills{
+        margin-left: -65px;
+    }
+    .skills{
+        font-size: large;
+    }
+    #project{
+        margin-left: -50px;
+    }
+    .project{
+        font-size: large;
+    }
+    #stat{
+        margin-left: -45px;
+    }
+    .stat{
+        font-size: large;
+    }
+    #cont{
+        margin-left: 10px;
+    }
+    .cont{
+        font-size: large;
+    }
+  #conthead{
+    margin-top: 100px;
+  }
+  #formhead{
+    width:170px;
+  }
+    #formbox{
+        width:100%;
+        height:800px;
+        /* margin-top: -60px; */
+    }
+    #aboutfmbox{
+        height:80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #lfmabout{
+        width:90%;
+        height:50%;
+    
+    }
+    #rfmbox{
+        width:90%;
+        height:50%;
+        overflow: scroll;
+    }
+}
+@media only screen and (max-width: 450px) 
+{
+  
+    #navbar{
+        width:100%;
+        height:20px;
+   position: fixed;
+    }
+    #container{
+        /* position: fixed; */
+        flex-direction: column;
+        width:100%;
+        /* margin-top: -70px; */
+        
+        /* margin-right: 50px; */
+    }
+    #lcont{
+        width:100%;
+        background-color: black;
+    }
+    #rcont{
+        /* flex-direction: column; */
+        /* margin-top: -30px; */
+        background-color: black;
+        width:100%;
+        height:40px;
+        /* justify-content: space-between; */
+        /* padding-left: 20px; */
+    }
+   
 }
