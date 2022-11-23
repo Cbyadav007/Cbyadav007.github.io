@@ -5,6 +5,9 @@ body{
     background-color: rgb(245, 226, 117) ;
     position:relative;
 }
+.topnav{
+    display:none
+}
 #navbar{
     /* border: 1px solid red; */
     margin-top: -80px;
@@ -147,7 +150,7 @@ body{
     display:flex;
     justify-content: space-evenly;
     width:100%;
-    height:470px;
+    height:600px;
     margin:auto;
     /* border:1px solid red; */
     margin-top: 80px;
@@ -156,7 +159,7 @@ body{
 }
 #lbox{
     width:45%;
-    height:450px;
+    height:580px;
     /* border:1px solid red; */
     background-color: rgb(253, 243, 188);
     padding-left: 15px;
@@ -173,55 +176,61 @@ body{
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
-#skilllogo{
-    margin-top: -15px;
-    justify-content: space-evenly;
-    /* overflow: scroll; */
+#lbox #skilllogo{
+  /* width:60%; */
+  row-gap: 20px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 60px 60px 60px;
+       
+
 }
 
 .html{
-    width:50px;
+    width:70px;
     height:70px;
     margin-top: 20px;
     border-radius: 10px;
 }
 
 .css{
-    width:50px;
+    width:70px;
     height:70px;
-    margin-left: 10px;
+    /* margin-left: -30px; */
     margin-top: 20px;
     border-radius: 10px;
 }
 .mboot{
     width:110px;
     height:70px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 20px;
     border-radius: 10px;
 }
 .js{
-    width:60px;
+    width:90px;
     height:80px;
     margin-top: 18px;
     border-radius: 10px;
+    /* margin-left: -65px; */
 }
 .msql{
-    width:60px;
+    width:90px;
     height:80px;
     margin-top: 18px;
     border-radius: 10px;
+    /* margin-left: 20px; */
 }
 .java{
-    width:70px;
-    margin-left: 0px;
+    width:90px;
+    /* margin-left: -80px; */
     height:70px;
     margin-top: 20px;
     border-radius: 10px;
 }
 .mhiber{
-    width:70px;
-    margin-left: 0px;
+    width:90px;
+    margin-left: 20px;
     height:70px;
     margin-top: 20px;
     border-radius: 10px;
@@ -229,7 +238,7 @@ body{
 .boot{
     width:50px;
     height:60px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -238,13 +247,13 @@ body{
 }
 #rbox{
     width:45%;
-    height:420px;
+    height:580px;
     /* border:1px solid green; */
 }
 #resume{
     margin-top: 20px;
     margin-left: 250px;
-    
+    margin:auto;
     width:70px;
 }
 .resume{
@@ -261,7 +270,7 @@ body{
 }
 .cbphoto{
     width:90%;
-    height:440px;
+    height:580px;
     border-radius: 30px;
 }
 #cbphoto{
@@ -305,20 +314,22 @@ body{
 }
 #smalllogo{
     display:flex;
+    margin-left: 90px;
+    margin-top: 20px;
 }
 #agit{
-    margin-top: -90px;
-    margin-left: 15%;
+    /* /* margin-top: -90px; */
+    margin-left: 20px; 
     /* position: sticky; */
 }
 #alinked{
-    margin-top: -25px;
-    margin-left: 20%;
+    /* /* margin-top: -25px; */
+    margin-left: 20px; 
 }
 #amail{
     
-    margin-top: -90px;
-    margin-left: 18%;
+    /* /* margin-top: -90px; */
+    margin-left: 20px; 
 }
 .agit{
     width:40px;
@@ -424,7 +435,7 @@ justify-items: center;
 
 #fhtml{
     /* border:1px solid red; */
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -464,7 +475,7 @@ justify-items: center;
 }
 #fcss{
     /* border:1px solid red; */
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -482,7 +493,7 @@ justify-items: center;
 }
 #fjs{
     /* border: 1px solid red; */
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -491,7 +502,7 @@ justify-items: center;
 }
 #sql{
       /* border: 1px solid red; */
-      width:120px;
+      width:150px;
       border-radius: 10px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -499,10 +510,10 @@ justify-items: center;
       background-color: white;
 }
 .fhtml{
-    width:120px;
+    width:150px;
 }
 .fcss{
-    width:120px;
+    width:150px;
     margin-left: 0px;
     
 }
@@ -510,18 +521,18 @@ justify-items: center;
     width:150px;
     height:60px;
     margin-left: 5px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .fjs{
-    width:190px;
+    width:220px;
     margin-left: -35px;
 }
 .sql{
-    width:120px;
+    width:150px;
     /* margin-left: -35px;  */
 }
 #bjava{
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -529,7 +540,7 @@ justify-items: center;
     background-color: white;
 }
 .bjava{
-    width:120px;
+    width:150px;
     height:120px;
 }
 
@@ -580,7 +591,7 @@ margin-top: -1px;
 #p1{
     display:flex;
     /* border:1px solid black; */
-    /* height:600px; */
+    height:450px;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -602,10 +613,13 @@ margin-top: -1px;
 }
 
 #p2{
+    height:480px;
     display:flex;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #p3{
+    height:380px;
+    margin-top: 30px;
     display:flex;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -1195,49 +1209,122 @@ form input{
     text-decoration: none;
     color: black;
 }
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 1100px)
 {
-    
+#smalllogo{
+    margin-left: 50px;
+}
+#aboutbox{
+    width:93%;
+}
+}
+@media only screen and (max-width: 1155px)
+{
+ #lbox #skilllogo{
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+ }
+}
+@media only screen and (max-width: 1028px)
+{
+ #lbox #skilllogo{
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+ }
+}
+
+@media only screen and (max-width: 768px)
+{
     #navbar{
-        width:100%;
-        height:20px;
-   
+        display: none;
     }
-    #container{
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        /* background-color: #333; */
+        background-color: black;
         position: fixed;
-        flex-direction: column;
-        width:100%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 97%;
         margin-top: -70px;
+        padding-left: 10px;
+      }
+      
+    
+    #cbr{
+        display: flex;
+    }
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
+        background-color: black;
+        color:white;
         
-        /* margin-right: 50px; */
-    }
-    #lcont{
-        width:100%;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
         background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: large;
+       
+      }
+      .icon{
+        font-size: 25px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
     }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
-        background-color: black;
-        width:100%;
-        height:40px;
-        /* justify-content: space-between; */
-        /* padding-left: 20px; */
-    }
+    
    
 
   
    #box{
-    height:480px;
-    margin-top: 150px;
-   margin-left: 30px;
+    height:680px;
+    margin-top: 70px;
+   /* margin-left: 30px; */
+   width:99%;
    }
     #lbox{
-    width:80%;
+    width:85%;
     /* margin-left: 10px; */
     margin:auto;
     margin-top: -5px;
-    height:450px;
+    height:660px;
    }
    #rbox{
     width:0px;
@@ -1245,31 +1332,32 @@ form input{
     /* margin:auto; */
    }
    #resume{
-    margin-left: 200px;
+    margin-left: 250px;
    } 
 
    #aboutbox{
-    margin-left: 30px;
-    width:95%;
+    /* margin-left: 30px; */
+    width:93%;
     height:400px;
     
    }
+  
    .aboutpic{
-    width:220px;
+    width:180px;
     margin-top: 50px;
    }
    #agit{
     margin-left: -10px;
    }
    #amail{
-    margin-left: 50px;
+    margin-left: 20px;
    }
    #alinked{
-    margin-left: 70px;
+    margin-left: 20px;
    }
    #skillbox{
-    width:95%;
-    margin-left: 40px;
+    width:97%;
+    /* margin-left: 40px; */
    }
    #projectbox{
     height:2800px;
@@ -1353,100 +1441,179 @@ form input{
     width:180px;
 }
 }
-
-
-@media only screen and (max-width: 450px) 
+@media only screen and (max-width: 650px)
 {
-  
-    #navbar{
-        width:100%;
-        height:20px;
-   position: fixed;
+    #aboutbox{
+        height:450px;
+     } 
+    .agit{
+        width:30px;
     }
-    #container{
-        /* position: fixed; */
-        flex-direction: column;
-        width:100%;
-        /* margin-top: -70px; */
-        
-        /* margin-right: 50px; */
+    .alinked{
+        width:30px;
     }
-    #lcont{
-        width:100%;
-        background-color: black;
+    .amail{
+        width:30px;
     }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
-        background-color: black;
-        width:100%;
-        height:40px;
-        /* justify-content: space-between; */
-        /* padding-left: 20px; */
+    #skillhead{
+        height:45px;
+        width:140px;
     }
+    #frontbox{
+        height:500px;
+    }
+    #frontskill{
+        row-gap: 20px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 550px)
+{
+    #frontbox{
+        height:680px;
+    }
+    #frontskill{
+        row-gap: 10px;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 513px)
+{
+ #aboutbox{
+    height:500px;
+ } 
+ .aboutpic{
+    width:150px;
+ }
+ #labout #smalllogo{
+    margin-left: -5px;
+ }
+ #frontendskill{
+    /* border:1px solid red; */
+    row-gap: 30px;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+justify-items: center;
+}
+
+#backendskill{
+    /* border:1px solid red; */
    
+    row-gap: 30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    }
+}
+
+@media only screen and (max-width: 425px) 
+{
+    
+    #navbar{
+        display: none;
+    }
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        /* background-color: #333; */
+        background-color: black;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 95%;
+        margin-top: -70px;
+        padding-left: 10px;
+      }
+      
+    
+    #cbr{
+        display: flex;
+    }
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
+        background-color: black;
+        color:white;
+        
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: large;
+       
+      }
+      .icon{
+        font-size: 25px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    
+
 
   
    #box{
-    width:100%;
-    height:950px;
-    margin-top: 150px;
-   margin-left: 120px;
+    width:95%;
+    height:1000px;
+    margin-top: 70px;
+   /* margin-left: 120px; */
   
    }
-   #skilllogo{
+   #lbox #skilllogo{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
     justify-content: space-evenly;
    }
-   #html{
-    
-    margin-right: 40px;
-   }
-   #js{
-    margin-left: 50px;
-   }
-   .mboot{
-    margin-left: -30px;
-   }
-   .msql{
-    width:110px;
-    height:110px;
-    /* margin-left: -40px; */
-    /* margin-right:40px; */
-   }
-   .mhiber{
-    width:110px;
-    height:110px;
-    
-   }
-.html{
-width:90px;
-height:90px;
-}
-.css{
-    width:90px;
-height:90px;
-}
-.js{
-    width:90px;
-height:90px;
-}
-.java{
-    width:90px;
-height:90px;
-}
+  
 .resume{
     margin-top: 30px;
     margin-left: -70px;
 }
     #lbox{
     width:80%;
-    /* margin-left: 10px; */
     margin:auto;
     margin-top: -5px;
-    height:95%;
+    height:98%;
    }
    #rbox{
     width:0px;
@@ -1460,9 +1627,9 @@ height:90px;
    #aboutbox{
     flex-direction: column;
     align-items: center;
-    margin-left: 120px;
-    width:99%;
-    height:740px;
+    /* margin-left: 120px; */
+    width:80%;
+    height:770px;
     
    }
    #labout{
@@ -1485,11 +1652,17 @@ height:90px;
    #alinked{
     margin-left: 70px;
    }
+   #labout #smalllogo{
+    margin-left: -25px;
+   }
    #skillbox{
-    width:99%;
-    margin-left: 40px;
+    width:95%;
+  padding:10px;
     align-items: center;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+   }
+   #fff{
+    margin-top: -20px;
    }
    #frontendskill{
     row-gap: 15px;
@@ -1507,18 +1680,22 @@ justify-items: center;
    }
    #skillhead{
     width:150px;
+    height:40px;
    }
    #projectbox{
     width:100%;
-    margin-left: 120px;
-    height:3150px;
+    /* margin-left: 120px; */
+    height:3100px;
    }
-   
+   #projecthead{
+    height:40px;
+   }
    #pbox{
     height:90%;
+    margin-top: -10px;
    }
    #p1{
-    height:1030px;
+    height:1050px;
     margin-bottom: 300px;
     flex-direction: column;
    }
@@ -1530,7 +1707,7 @@ justify-items: center;
     width:100%;
    }
    #p2{
-    height:1080px;
+    height:1140px;
     margin-top: 500px;
     flex-direction: column;
    }
@@ -1542,23 +1719,28 @@ justify-items: center;
     width:100%;
    }
    #p3{
-    height:1000px;
-    margin-top: 1050px;
+    height:920px;
+    margin-top: 1080px;
     flex-direction: column;
    }
    #rp3{
     width:100%;
+    height:45%;
    }
    #lp3{
     width:100%;
-    height:50%;
+    height:55%;
    }
 
 #statisticsbox{
    width:100%;
    /* align-items: center; */
-   margin-left: 120px;
+   /* margin-left: 120px; */
 }
+#statisticshead{
+height:40px;
+}
+
 #frontskill{
     
     display:grid;
@@ -1569,9 +1751,15 @@ justify-items: center;
 #frontbox{
     height:650px;
 }
+#gcal{
+    height:35px;
+}
    #edubox{
     height:1300px;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+   }
+   #eduhead{
+    height:40px;
    }
    #education{
     /* margin-left: 30px; */
@@ -1594,8 +1782,8 @@ justify-items: center;
 }
 #formbox{
     width:100%;
-    height:800px;
-margin-left: 120px;
+    height:830px;
+/* margin-left: 120px; */
 }
 #aboutfmbox{
     height:80%;
@@ -1609,14 +1797,14 @@ margin-left: 120px;
 }
 #rfmbox{
     width:90%;
-    height:50%;
+    height:60%;
     overflow: scroll;
 }
 #formhead{
     width:180px;
 }
 #footer{
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 #eduhead{
     width:220px;
