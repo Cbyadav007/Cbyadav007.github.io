@@ -1,0 +1,427 @@
+body{
+    background-color:rgba(4, 0, 255, 0.158);
+}
+#navbar{
+    /* border: 1px solid red; */
+    height: 60px;
+    margin-top: -60px;
+    width:98.8%;
+    position:fixed;
+    background-color:black;
+    
+}
+#lcont{
+    width:40%;
+    display:flex
+}
+#resumenav{
+    padding:10px 5px 10px 5px;
+}
+.resumenav{
+    padding:10px 10px 10px 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.resumenav:hover{
+    background-color: green;
+    color:white;
+}
+#home{
+    width:300px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    /* background-color: black; */
+    /* border-radius: 10px; */
+  margin-left: 20px;
+}
+.home:hover{
+    color:greenyellow;
+}
+.home{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#project{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -10px;
+
+}
+.project:hover{
+    color:orange;
+}
+.project{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+}
+.about:hover{
+    color:orange;
+}
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 22px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#skills{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -15px;
+ 
+}
+.skills{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;  
+}
+.skills:hover{
+    color:orange;
+}
+.techs{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color:greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tech{
+    width:148px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -30px;
+   
+}
+#tech:hover{
+    color:orange;  
+}
+#stat{
+    margin-top:13px;
+    margin-left: -10px;
+}
+.cont{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cont{
+    margin-top: 13px;
+    margin-left: -20px;
+}
+.cont:hover{
+    color:orange;  
+}
+
+#container{
+    display: flex;
+    justify-content:space-between;
+}
+#rcont{
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid green; */
+    width:60%;
+    height:60px;
+}
+#frontbox{
+    /* border:1px solid red; */
+    width:80%;
+    height:240px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+   background-color: white;
+}
+#techheading{
+    width:100%;
+    height:100px;
+    /* border:1px solid red; */
+    margin-top: 60px;
+    display: flex;
+    justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:rgba(138, 255, 5, 0.534);
+}
+.techheading{
+    width:410px;
+    height:30px;
+    /* margin:auto; */
+    font-size: 28px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 35px;
+    
+    /* border:1px solid green; */
+}
+.slogo{
+    width:70px;
+    margin-top: 28px;
+    border-radius: 10px;
+}
+#front{
+    /* border-bottom: 1px solid black; */
+    width:100%;
+    height:40px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    padding-left: 20px;
+   
+}
+#hr1{
+    margin-top: -5px;
+}
+#frontskill{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+#fhtml{
+    /* border:1px solid red; */
+    width:120px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#fhtml:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color:blue;
+}
+#fcss:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color: green;
+}
+#boot:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color:yellow;
+}
+#fjs:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color:green;
+}
+#sql:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color:yellow;
+}
+#bjava:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color:yellow;
+}
+#fcss{
+    /* border:1px solid red; */
+    width:120px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#boot{
+     /* border:1px solid red; */
+     width:120px;
+     border-radius: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+#fjs{
+    /* border: 1px solid red; */
+    width:120px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#sql{
+      /* border: 1px solid red; */
+      width:120px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.fhtml{
+    width:120px;
+}
+.fcss{
+    width:85px;
+    margin-left: 18px;
+    
+}
+.boot{
+    width:100px;
+    height:60px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.fjs{
+    width:190px;
+    margin-left: -35px;
+}
+.sql{
+    width:120px;
+    /* margin-left: -35px;  */
+}
+#backbox{
+    width:80%;
+    height:240px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+   background-color: white;
+}
+#back{
+    width:100%;
+    height:40px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#hr2{
+    margin-top: -5px;
+}
+#backendSkill{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+#bjava{
+    width:120px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bjava{
+    width:120px;
+    height:120px;
+}
+#footer{
+    text-align: center;
+    width:100%;
+    height:40px;
+    /* border:1px solid red; */
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media all and (min-width:451px) and (max-width:750px)
+{
+    #container{
+        flex-direction: column;
+        margin-top: -50px;
+        /* background-color: black; */
+    }
+    /* #rcont{
+        background-color: black;
+        width:100%;
+    } */
+    #techheading{
+        margin-top: 100px;
+    }
+  #frontbox{
+    height:400px;
+  }
+
+#frontskill{
+    /* flex-direction: column; */
+    row-gap: 20px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px 150px ;
+}
+
+}
+@media all and (min-width:200px) and (max-width:450px)
+{
+
+
+    #navbar{
+        width:150px;
+        margin-top: -60px;
+    }
+    #container{
+        flex-direction: column;
+        width:400px;
+        /* margin-top: 30px; */
+    }
+    #lcont{
+        width:400px;
+        background-color: black;
+    }
+    #rcont{
+        flex-direction: column;
+        margin-top: 0px;
+        background-color: black;
+        width:150px;
+        height:500px;
+        padding-left: 20px;
+    }
+    #cont{
+        margin-left: -20px;
+    }
+    #techheading{
+        width:70%;
+        margin-left: 180px;
+        /* margin-top: 10px; */
+    }
+    #frontbox{
+        width:500px;
+      }
+    
+    #frontskill{
+        /* flex-direction: column; */
+        row-gap: 20px;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 150px 150px ;
+    }
+
+}

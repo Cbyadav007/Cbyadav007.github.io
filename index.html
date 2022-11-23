@@ -1,0 +1,427 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    </head>
+    <body>
+
+
+
+        <div class="topnav">
+            <div id="cbr"
+            <a href="index.html" class="active">Chandra Bhan Yadav</a>
+            <a href="ChandraBhan_Yadav_Resume.pdf" download="ChandraBhan-Yadav-Resume"><button class="resumenav">Resume</button></a> 
+        </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="index.html">About</a>
+              <a href="skill.html">Skills</a>
+              <a href="project.html">Project</a>
+              <a href="stat.html">Statistics</a>
+              <a href="cont.html">Contact</a>
+            
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="navbar">
+        <div id="container">
+            <div id="lcont">
+                <div id="home"><a href="index.html" class="home">Chandra Bhan Yadav</a></div>
+                <div id="resumenav"><a href="ChandraBhan_Yadav_Resume.pdf" download="ChandraBhan-Yadav-Resume"><button class="resumenav">Resume</button></a> </div>
+            </div>
+            <div id="rcont">
+                <div id="about"><a href="" class="about">About</a></div>
+                <!-- <div id="tech"><a href="tech.html" class="skills">Tech Stack</a></div> -->
+                <div id="skills"><a href="skill.html" class="skills">Skills</a></div>
+                <div id="project"><a href="project.html" class="project">Project</a></div>
+                <div id="stat"><a href="stat.html" class="skills">Statistics</a></div>
+                <div id="cont"><a href="cont.html" class="cont">Contact</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+<div id="box">
+    <div id="lbox">
+        <h2>Hey   👋 ... </h2>
+        <h2>I'm Chandra Bhan Yadav</h2>
+        <h2>Welcome to my portfolio !</h2>
+        <p>Aspiring Java Backend Developer with a specialization
+            in Java, Spring Boot, SQL, REST APIs, Git/Github, AWS,
+            HTML, CSS, Javascript, Object-oriented, design Self- 
+            motivated
+            and curious, with a keen interest in building 
+            user-centric products. Looking forward to honing my
+            skills in a challenging work environment.</p>
+        <div id="skilllogo">
+            <div id="html"><img src="https://i.gifer.com/DEnd.gif" alt="" class="html"></div>
+            <div id="css"><img src="data:image/png;base64,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" alt="" class="css"></div>
+            <div id="js"><img src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=6c09b952idha5aup76uk729ej5nrwowvv34ttf3qw7t6wcwp&rid=giphy.gif&ct=s" alt="" class="js"></div>
+            <div id="java"><img src="https://www.jedecore.com/gif/internet/java.gif" alt="" class="java"></div>
+            <div id="mboot"><img src="https://www.north-47.com/wp-content/uploads/2019/08/Spring-BOOT-Interview-questions-1.jpg" alt="" class="mboot"></div>
+            <div id="msql"><img src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-development-mysql-logo-code-icon-9.png" alt="" class="msql"></div>
+            <div id="mhiber"><img src="https://www.javatpoint.com/images/hibernate/hibernate2.png" alt="" class="mhiber"></div>
+        </div>
+        <div id="resume"><a href="ChandraBhan_Yadav_Resume.pdf" download="ChandraBhan-Yadav-Resume"><button class="resume">Resume</button></a> </div>
+    </div>
+      
+    <div id="rbox">
+        <div id="cbphoto"><img src="https://spawnpointdev.com/wp-content/uploads/2019/11/Coding.jpg" alt="" class="cbphoto"></div>
+    </div>
+
+</div>
+<div id="aboutbox">
+    <div id="labout">
+        <img src="ChandraBhanYadav.jpg" alt="" class="aboutpic">
+        <div id="smalllogo">
+            <div id="agit"><a href="https://github.com/Cbyadav007" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" class="agit"></a></div>
+            <div id="alinked"><a href="https://www.linkedin.com/in/chandra-bhan-yadav-9690a81a0" target="_blank"> <img src="https://www.kindpng.com/picc/m/32-326060_linkedin-logo-black-png-image-linkedin-icon-black.png" alt="" class="alinked"></a></div>
+            <div id="amail"><a href="cont.html"><img src="https://thumbs.dreamstime.com/b/%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C-201003176.jpg" alt="" class="amail"></a></div>
+        </div>
+    </div>
+   
+    <div id="rabout">
+        <p id="am">About myself</p>
+        <div id="a1">🏡 I am from Varanasi, Uttar Pradesh.</div>
+        <div id="a2">😍 I like playing Volleyboll, watching movies, travelling and interact with people.</div>
+        <div id="a3">🤝 I think of myself as a people person.</div>
+        <div id="a4">❤️ I love designing websites and I m looking for more opportunitiesto work in coding.</div>
+        <div id="a5">🤗 Apart from being a good technocrat, I wish to contribute towards the betterment of the society with the knowledge I have gained so far and will be,in the coming years.</div>
+    </div>
+</div>
+
+
+<div id="skillbox">
+
+<div id="skillhead">Skills</div>
+<div id="fff">Front-end</div>
+<div id="frontendskill">
+    <div id="fhtml"><img src="https://cdn-icons-png.flaticon.com/512/888/888909.png?w=360" alt="" class="fhtml"></div>
+    <div id="fcss"><img src="https://cdn-icons-png.flaticon.com/512/888/888897.png" alt="" class="fcss"></div>
+    <div id="fjs"><img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png" alt="" class="fjs"></div>
+</div>
+
+
+<div id="bbb">Back-end</div>
+<div id="backendskill">
+    <div id="bjava"><img src="https://i0.wp.com/crackedfine.com/wp-content/uploads/2018/10/1-17.png?fit=512%2C512&ssl=1" alt="" class="bjava"></div>
+              
+    <div id="boot"><img src="https://www.dariawan.com/media/images/tech-spring-boot.width-1024.png" alt="" class="boot"></div>
+    <div id="sql"><img src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-development-mysql-logo-code-icon-9.png" alt="" class="sql"></div>
+    <div id="fhtml"><img src="https://www.javatpoint.com/images/hibernate/hibernate2.png" alt="" class="fhtml"></div>
+</div>
+
+</div>
+
+
+
+<div id="projectbox">
+
+<div id="projecthead">Projects</div>
+
+
+    <div id="pbox">
+        <div id="p1">
+            <div id="lp1">
+                <h2>GEARBEST website - Clone Project</h2>
+                <div id="tp1">Tech Stack : HTML | CSS | JAVASCRIPT</div>
+                <div id="g1"> An e-commerce website where you can buy items of
+                    your daily need.</div>
+                <div id="g1"> ☛ A collaborative project built by a team of 5 member, executed in a week.</div>
+                <div id="g2"> ☛ User can register and login to the website & search product of their interest.</div>
+                <div id="a1"> Area of responsibility : </div>
+                <div id="ap1"> ☛ Developed the Home page with carousal</div>
+                <div id="ap2"> ☛ Search bar function - User can search product.</div>
+                <div id="ap3"> ☛ Create modal box for different section of the navbar.</div>
+                <div id="button1">
+                    <div> <a href="https://bespoke-bienenstitch-0e6fc3.netlify.app" target="_blank"><button id="p1b1">LIVE DEMO</button></a></div>
+                    <div> <a href="https://github.com/yuvrajrajarawal869/gearbest" target="_blank"><button id="p1b2">VIEW CODE</button></a></div>
+                </div>
+            </div>
+            <div id="rp1"><img src="Gearbest.png" alt="" class="rp1"></div>
+        </div>
+        <div id="p2">
+            <div id="lp2">
+                <h2>Intern Theory website - Clone Project</h2>
+                <div id="tp2">Tech Stack : HTML | CSS | JAVASCRIPT</div>
+                <div id="i1"> An online internship portal created to bridge the gap
+                    between students seeking internships and companies
+                    looking for interns.</div>
+                <div id="i1"> ☛ A collaborative project built by a team of 5 member, executed in a week.</div>
+                <div id="i2"> ☛ Upskill courses are available.</div>
+                <div id="i3"> ☛ User can login after register yourself.</div>
+                <div id="a2">Area of responsibility : </div>
+                <div id="i4"> ☛ Developed Signup, login, & profile page.</div>
+                <div id="i5"> ☛ After login user are able to bookmark courses.</div>
+                <div id="i6"> ☛ Duplicate users are not allowed</div>
+                <div id="button1">
+                    <div> <a href="https://sage-dragon-243808.netlify.app" target="_blank"><button id="p1b1">LIVE DEMO</button></a></div>
+                    <div> <a href="https://github.com/Cbyadav007/intern_theory" target="_blank"><button id="p1b2">VIEW CODE</button></a></div>
+                </div>
+            </div>
+            <div id="rp2"><img src="Intern_Theory.png" alt="" class="rp2"></div>
+        </div>
+        
+
+        <div id="p3">
+            <div id="lp3">
+                <h2>You Tube website - Clone Project</h2>
+                <div id="tp2">Tech Stack : HTML | CSS | JAVASCRIPT | YOU-TUBE API</div>
+                <div id="i5"> YouTube is a video sharing service where users can
+                    watch, like, share, comment and upload their own
+                    videos.</div>
+                <div id="i1"> ☛ A clone of You-tube website built by me, & executed
+                    within 3 days.</div>
+                <div id="i2"> ☛ On open, it shows the popular video of YouTube.</div>
+                <div id="i3"> ☛ Search bar functionality : Real Time search
+                    functionality.</div>
+             
+                <div id="i4"> ☛ On search, it shows the thumbnail of related video,
+                    when click on thumbnail, video will play in a big
+                    screen.</div>
+                
+                <div id="button1">
+                    <div> <a href="https://sparkling-torte-e4cd94.netlify.app/" target="_blank"><button id="p1b1">LIVE DEMO</button></a></div>
+                    <div> <a href="https://github.com/Cbyadav007/you-tube" target="_blank"><button id="p1b2">VIEW CODE</button></a></div>
+                </div>
+            </div>
+            <div id="rp3"><img src="youtube.png" alt="" class="rp3"></div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div id="statisticsbox">
+
+<div id="statisticshead">Statistics</div>
+
+
+
+    <div id="frontbox">
+           
+          
+        <div id="frontskill">
+            <div id="ffhtml">
+                <div id="up">500+</div>
+                <div id="mid">Hours</div>
+                <div id="down">of Front-end Coding</div>
+            </div>
+            <div id="ffcss">
+                <div id="up">300+</div>
+                <div id="mid">Online Judge</div>
+                <div id="down">DSA problems</div>
+            </div>
+            <div id="ffjs">
+                <div id="up">55+</div>
+                <div id="mid">Git</div>
+                <div id="down">Commits</div>
+            </div>
+             <div id="bbjava">
+                <div id="up">5+</div>
+                <div id="mid">Projects</div>
+                <div id="down">Done</div>
+             </div>
+             <div id="bbjava">
+                <div id="up">100+</div>
+                <div id="mid">Hours</div>
+                <div id="down">of Soft Skills Session</div>
+             </div>
+        </div>
+    </div>
+  <div id="cale">
+    <div id="gcal">Git Hub Calendar <img src="https://saiinfoways.com/wp-content/uploads/2020/04/arrow-gif.gif" alt="" class="darrow"></div>
+ <!-- Prepare a container for your calendar. -->
+                      
+                           
+
+                           
+                           <div style="width: 80%; margin: auto; margin-top: 40px;">
+
+                              <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+                              <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                              <link
+                              rel="stylesheet"
+                              href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+                              />
+
+                              <!-- Prepare a container for your calendar. -->
+                              <div class="calendar">
+                                <!-- Loading stuff -->
+                                Loading the data just for you.
+                              </div>
+
+                              <script>
+                                GitHubCalendar(".calendar", "yuvrajrajarawal869");
+                                // or enable responsive functionality
+                                GitHubCalendar(".calendar", "yuvrajrajarawal869", { responsive: true });
+                              </script>
+
+
+                           </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<div id="edubox">
+    <div id="eduhead"><h1>Education</h1></div>
+    <div id="education">
+    <div id="emasai">
+        <h3>Masai School</h3>
+        <p>Joined a 30 week, Full Time, Full Stack Web Development bootcamp, to master front-end, Back-end, DSA and Soft Skills.</p>
+        <P>2022</P>
+    </div>
+    <div id="emtech">
+        <h3>Master of Technology (Micro-Electronics & VLSI Design)</h3>
+        <p>Rajiv Gandhi Proudyogiki Vishwavidyalaya</p>
+         <p>2018-2020 | Bhopal, Madhya Pradesh</p>
+         <p>CGPA  7.7</p>
+    </div>
+    <div id="ebtech">
+        <h3>Bachelor of Technology (Electronics & Communication Engineering)</h3>
+        <p>Chandra Shekhar Azad University of Agriculture & Technology</p>
+        <div>2014-2018 | Kanpur, Uttar Pradesh</div>
+        <div>CGPA 7.2</div>
+    </div>
+    <div id="e12">
+        <h3>Intermediate</h3>
+        <p>Swami Harsewanand Public School</p>
+        <p> 2012-2013 | varanasi, Uttar Pradesh</p>
+        <p>Marks : 73.2 %</p>
+    </div>
+    <div id="e10">
+        <h3>High School</h3>
+        <p>Swami Harsewanand Public School</p>
+        <p> 2010-2011 | varanasi, Uttar Pradesh</p>
+        <p>CGPA 8.8</p>
+    </div>
+</div>
+</div>
+
+
+<!--              Contact Section                -->
+
+<div id="formbox">
+
+<div id="formhead">Get In Touch</div>
+
+<div id="aboutfmbox">
+    <div id="lfmabout">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            
+                <div class="fname">Name  : &nbsp;<input type="text" id="fname" placeholder="Your Name" required></div>
+                <div class="femail">Email : <input type="email" id="femail" placeholder="Email Id" required></div>
+                <div class="fmobile">Phone : <input type="text" id="fmobile" placeholder="Mobile No." required></div>
+                <div class="fmesage"><textarea name="" id="fmessage" rows=5" placeholder="Type Message here"></textarea></div>
+                <button type="submit" id="formbutton">Send</button>
+
+        </form>
+    </div>
+     
+    <div id="rfmbox">
+       <a href=""><div id="ee"><img src="https://cdn-icons-gif.flaticon.com/6416/6416396.gif" alt="" class="ee"><div class="see"> cby19073@gmail.com</div></div></a>
+       <a href=""> <div id="nn"><img src="https://cdn-icons-gif.flaticon.com/6172/6172514.gif" alt="" class="nn"> <div class="snn">+91 8958325933</div> </div></a>
+       <a href="https://github.com/Cbyadav007" target="_blank"> <div id="gg"><img src="https://media1.giphy.com/avatars/mwooodward/cIe5MvDvX4Vc.gif" alt="" class="gg"><div class="sgg">GitHub Profile</div></div></a>
+        <a href="https://www.linkedin.com/in/chandra-bhan-yadav-9690a81a0" target="_blank"><div id="ll"><img src="https://i.pinimg.com/originals/de/b4/6f/deb46f02a59e3b3a2aa58fac16290d63.gif" alt="" class="ll"><div class="sll">LinkedIn Profile</div></div></a>
+            <a href=""><div id="aa"><img src="https://thumbs.gfycat.com/PertinentUntriedAsianwaterbuffalo-max-1mb.gif" alt="" class="aa"><div class="saa">Varanasi, Uttar Pradesh</div></div></a>
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div id="footer">© 2022 Designed and Built by Chandra Bhan Yadav. Contact : +91 8958325933 or Mail at : cby19073@gmail.com</div>
+    </body>
+    </html>
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+  </script>
+  <script>
+      GitHubCalendar(".calendar", "Cbyadav007");
+  
+      // or enable responsive functionality:
+      //GitHubCalendar(".calendar", "Cbyadav007", { responsive: true });
+  
+      // Use a proxy
+      GitHubCalendar(".calendar", "Cbyadav007", {
+         proxy (username) {
+           return fetch(`https://your-proxy.com/github?user=${username}`)
+         }
+      }).then(r => r.text())
+  </script>
+
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "knightrun3322@gmail.com",
+            Password : "6DAAC6378515F595B84AAF263C12FCBA11B8",
+            To : 'jaikrr10@gmail.com',
+            From : "knightrun3322@gmail.com",
+            Subject : "Enquiry from Portfolio",
+            Body : "Name : " + document.getElementById("fname").value  
+                  + "<br> Email : " + document.getElementById("femail").value 
+                  + "<br> Phone : " + document.getElementById("fmobile").value 
+                  + "<br> Message : " + document.getElementById("fmessage").value
+        }).then(
+          message => alert("Message Sent Successfully !")
+        );
+    }
+  </script>
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      let head = document.querySelector("#box");
+      head.style.marginTop="70px";
+      let top = document.querySelector(".topnav");
+      top.style.marginTop="-70px";
+    } else {
+      x.style.display = "block";
+      let head = document.querySelector("#box");
+      head.style.marginTop="310px";
+      let top = document.querySelector(".topnav");
+      top.style.marginTop="-310px";
+    }
+  }
+</script>

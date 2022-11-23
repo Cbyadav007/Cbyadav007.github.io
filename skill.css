@@ -1,0 +1,594 @@
+body{
+    background-color:rgba(255, 208, 0, 0.301);
+}
+#navbar{
+    /* border: 1px solid red; */
+    margin-top: -60px;
+    /* margin-bottom: 50px; */
+    width:98.7%;
+    height: 60px;
+
+    background-color:black;
+    position:fixed;
+  
+}
+#container{
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+}
+#lcont{
+    width:40%;
+    display:flex
+}
+#resumenav{
+    padding:10px 5px 10px 5px;
+}
+.resumenav{
+    padding:10px 10px 10px 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.resumenav:hover{
+    background-color: green;
+    color:white;
+}
+#home{
+    width:300px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    /* background-color: black; */
+    /* border-radius: 10px; */
+  margin-left: 20px;
+}
+.home:hover{
+    color:greenyellow;
+}
+.home{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#project{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+margin-left: 10px;
+}
+.project:hover{
+    color:orange;
+}
+.project{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.about:hover{
+    color:orange;
+}
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 22px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#skills{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: 0px;
+ 
+}
+.skills:hover{
+    color:orange;
+}
+.skills{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color:greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tech{
+    width:150px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -20px;
+}
+.techs{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tech:hover{
+    color:orange;  
+}
+#stat{
+    margin-top:13px;
+    margin-left: 10px;
+}
+.stats{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cont{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cont{
+    margin-top: 13px;
+    margin-left: 0px;
+}
+.cont:hover{
+    color:orange;  
+}
+#container{
+    display: flex;
+    justify-content:space-between;
+}
+#rcont{
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid green; */
+    width:60%;
+    height:60px;
+}
+#frontbox{
+    /* border:1px solid red; */
+    width:80%;
+    height:260px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+   background-color: white;
+}
+#heading{
+    width:100%;
+    height:100px;
+    /* border:1px solid red; */
+    margin-top: 60px;
+    display: flex;
+    justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:rgba(255, 174, 0, 0.5);
+}
+.heading{
+    width:250px;
+    height:30px;
+    /* margin:auto; */
+    font-size: 28px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 35px;
+    /* border:1px solid green; */
+}
+.slogo{
+    width:70px;
+    margin-top: 22px;
+}
+#front{
+    /* border-bottom: 1px solid black; */
+    width:100%;
+    height:40px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    padding-left: 20px;
+   
+}
+#hr1{
+    margin-top: -5px;
+}
+#frontskill{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    
+}
+#fhtml:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color: green;
+}
+#fcss:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color: green;
+}
+#fjs:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color: green;
+}
+#bjava:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color: yellow;
+}
+#sql{
+    /* border: 1px solid red; */
+    width:150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sql{
+    width:150px;
+    /* margin-left: -35px;  */
+}
+#sql:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color:yellow;
+}
+#fhtml{
+    /* border:1px solid red; */
+    width:150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#fcss{
+    /* border:1px solid red; */
+    width:150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#fjs{
+    /* border: 1px solid red; */
+    width:150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.fhtml{
+    width:150px;
+}
+.fcss{
+    width:150px;
+    margin-left: 0px;
+    
+}
+.fjs{
+    width:220px;
+    margin-left: -35px;
+}
+.boot{
+    width:150px;
+    height:60px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+#boot{
+    /* border:1px solid red; */
+    width:150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    background-color: white;
+}
+#boot:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+    background-color:yellow;
+}
+#backbox{
+ 
+    width:80%;
+    height:280px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+   background-color: white;
+   box-sizing: border-box;
+}
+#back{
+    width:100%;
+    height:40px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#hr2{
+    margin-top: -5px;
+}
+#backendSkill{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+#bjava{
+    width:150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bjava{
+    width:150px;
+    height:120px;
+}
+#footer{
+    text-align: center;
+    width:100%;
+    height:40px;
+    /* border:1px solid red; */
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.topnav{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 956px)
+{
+    #navbar{
+        height:70px;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    
+
+    #navbar{
+        display: none;
+    }
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 96%;
+        margin-top: -70px;
+      }
+      
+    
+    #cbr{
+        display: flex;
+    }
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
+        background-color: black;
+        color:white;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: large;
+        padding-top: 15px;
+       padding-left: 10px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    
+    
+        #heading{
+            margin-top: 60px;
+            width:98%;
+            margin-left: 5px;
+        }
+    #frontskill{
+            row-gap: 15px;
+            column-gap: 20px;
+            display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+           }
+    #backendskill{
+            row-gap: 15px;
+            column-gap: 20px;
+            display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+           }
+    #frontbox{
+        width:98%;
+        height:430px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    #backbox{
+        width:98%;
+        height:430px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 450px) 
+{
+
+#navbar{
+    display: none;
+}
+/* Style the navigation menu */
+.topnav {
+    display: block;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 96%;
+    margin-top: -60px;
+  }
+  
+
+#cbr{
+    display: flex;
+}
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    /* background-color: #ddd; */
+    background-color: black;
+    color:white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    /* background-color: #04AA6D; */
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: large;
+   
+  }
+  .icon{
+    font-size: 25px;
+  }
+
+.resumenav{
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+
+    #heading{
+        margin-top: 60px;
+        width:100%;
+        margin-left: 5px;
+    }
+#frontskill{
+        row-gap: 15px;
+        column-gap: 20px;
+        display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+       }
+#backendskill{
+        row-gap: 15px;
+        column-gap: 20px;
+        display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+       }
+#frontbox{
+    width:100%;
+    height:430px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+#backbox{
+    width:100%;
+    height:430px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+}
