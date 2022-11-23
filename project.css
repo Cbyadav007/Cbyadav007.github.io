@@ -1,12 +1,15 @@
 body{
     background-color:rgba(255, 208, 0, 0.205);
 }
+.topnav{
+    display:none
+}
 #navbar{
     /* border: 1px solid red; */
     height: 60px;
     width:auto;
     background-color:black;
-    margin-top: -60px;
+    margin-top: -70px;
     width:98.8%;
     position:fixed;
 }
@@ -48,10 +51,10 @@ body{
 #project{
     width:100px;
     height:30px;
-    /* border:1px solid black; */
+    
    
     margin-top: 13px;
-margin-left: -10px;
+/* margin-left: -10px; */
 }
 .project:hover{
     color:orange;
@@ -144,9 +147,9 @@ margin-left: -10px;
 
 #pheading{
     width:100%;
-    height:100px;
+    height:90px;
     /* border:1px solid red; */
-    margin-top: 60px;
+    margin-top: 70px;
     display: flex;
     justify-content:center;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
@@ -167,64 +170,65 @@ margin-left: -10px;
     margin-top: 22px;
 }
 #pbox{
-    /* width:100%; */
+    width:95%;
+    margin:auto;
     display:grid;
-    column-gap: 20px;
-    padding:30px;
-    row-gap: 50px;
+    /* column-gap: 20px; */
+    /* padding:30px; */
+    row-gap: 30px;
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 445px 440px 388px;
+    grid-template-rows: 475px 475px 388px;
   /* background-color: rgb(3, 3, 44); */
     /* border:1px solid red; */
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #pbox>div{
     width:100%;
     /* border:1px solid green;   */
 }
 #p1{
+    height: 460px;
     display:flex;
-    /* border:1px solid black; */
-    /* height:600px; */
-    margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #lp1{
     width:50%;
-    height:auto;
+    height:100%;
 
     padding:10px;
     background-color:white;
-    overflow: scroll;
+    /* overflow: scroll; */
     /* border:1px solid red; */
 }
 #rp1{
     width:50%;
-    height:auto;
+    height:100%;
     /* border:1px solid red; */
     padding:10px;
     background-color: rgb(133, 196, 248);
 }
 
 #p2{
+    height: 460px;
     display:flex;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #lp2{
     width:50%;
-    height:auto;
+    height:100%;
     /* border:1px solid red; */
     padding:10px;
     background-color: white;
     overflow: scroll;
 }
 #p3{
+    height: 380px;
     display:flex;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #lp3{
     width:50%;
-    height:auto;
+    height:100%;
     /* border:1px solid red; */
     padding:10px;
     background-color: white;
@@ -232,14 +236,14 @@ margin-left: -10px;
 }
 #rp2{
     width:50%;
-    height:auto;
+    height:100%;
     /* border:1px solid red; */
     padding:10px;
     background-color: rgb(133, 196, 248);
 }
 #rp3{
     width:50%;
-    height:auto;
+    height:100%;
     /* border:1px solid red; */
     padding:10px;
     background-color: rgb(133, 196, 248);
@@ -288,7 +292,7 @@ margin-left: -10px;
 .rp1{
     margin-top: 9px;
     width:93%;
-    height:385px;
+    height:95%;
     transition: transform .5s;
 }
 #rp2{
@@ -297,7 +301,7 @@ margin-left: -10px;
 }
 .rp2{
     width:93%;
-    height:400px;
+    height:94%;
     transition: transform .5s;
     margin-top: 10px;
 }
@@ -306,10 +310,11 @@ margin-left: -10px;
 }
 .rp3{
     width:93%;
-    height:352px;
+    height:95%;
     transition: transform .5s;
     margin-top: 8px; 
 }
+
 .rp1:hover{
     transform: scale(1.1);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -361,50 +366,173 @@ button{
     width:100%;
     height:40px;
     /* border:1px solid red; */
-    margin-top: 30px;
+    margin-top: 50px;
     padding-top: 20px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 1030px)
+{
+    #pbox{
+        
+        display:grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 530px 580px 458px;
+      
+        margin-top: 30px;
+    }
+
+
+  #p1{
+    height: 480px;
+  }
+  #p2{
+    height:530px;
+  }
+  #p3{
+    height:480px;
+  }
+  .rp1{
+    height: 98%;
+  }
+  .rp2{
+    height: 98%;
+  }
+  .rp3{
+    height: 98%;
+  }
+  #footer{
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 956px)
+{
+    #navbar{
+        height:70px;
+    }
+}
+@media only screen and (max-width: 880px)
+{
+    #pbox{
+        
+        display:grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 570px 590px 550px;
+      
+        margin-top: 30px;
+    }
+
+
+    #p1{
+        height: 550px;
+      }
+      .rp1{
+        height: 98%;
+      }
+      #p2{
+        height:570px;
+      }
+      .rp2{
+        height: 98%;
+      }
+      #p3{
+        height:520px;
+      }
+      .rp3{
+        height: 98%;
+      }
+      #footer{
+        margin-top: 100px;
+      }
+}
+@media only screen and (max-width: 768px)
 {
   
     #navbar{
-        width:100%;
-        height:50px;
-   margin-top: -120px;
+        display: none;
     }
-    #container{
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        /* background-color: #333; */
+        background-color: black;
         position: fixed;
-        flex-direction: column;
-        width:100%;
-        /* margin-top: -20px; */
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 97%;
+        margin-top: -70px;
+        padding-left: 10px;
+      }
+      
+    
+    #cbr{
+        display: flex;
+    }
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
+        background-color: black;
+        color:white;
         
-        /* margin-right: 50px; */
-    }
-    #lcont{
-        width:100%;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
         background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: large;
+       
+      }
+      .icon{
+        font-size: 25px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
     }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
-        background-color: black;
-        width:100%;
-        height:40px;
-        justify-content: space-around;
-        /* padding-left: 20px; */
-    }
+    
    #pheading{
-margin-top: 120px;
+margin-top: 70px;
    }
     #pbox{
+        width:95%;
+        margin:auto;
+        margin-left: 9px;
         height:2500px;
+        margin-top: 40px;
        }
        #p1{
         height:850px;
-        margin-top: -40px;
-        margin-bottom: 300px;
         flex-direction: column;
        }
        #lp1{
@@ -415,8 +543,8 @@ margin-top: 120px;
         width:100%;
        }
        #p2{
-        height:850px;
-        margin-top: 360px;
+        height:900px;
+        margin-top: 300px;
         flex-direction: column;
        }
        #lp2{
@@ -425,102 +553,159 @@ margin-top: 120px;
        }
        #rp2{
         width:100%;
+        height:50%;
        }
        #p3{
         height:750px;
-        margin-top: 780px;
+        margin-top: 630px;
         flex-direction: column;
        }
        #rp3{
         width:100%;
+        height:50%;
        }
        #lp3{
         width:100%;
         height:50%;
        }
+       #footer{
+        margin-top: 150px;
+       }
+}
+@media only screen and (max-width: 505px)
+{
+    #pbox{
+        
+        display:grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 1030px 1150px 1000px;
+        margin-left: 9px;
+        margin-top: 30px;
+    }
+
+
+    #p1{
+        height: 1020px;
+      }
+      .rp1{
+        height:98%;
+      }
+      #p2{
+        height:1110px;
+        margin-top: 10px;
+      }
+      .rp2{
+        height:98%;
+      }
+      #p3{
+        height:1000px;
+        margin-top: 10px;
+      }
+      .rp3{
+        height:98%;
+      }
+      #footer{
+        margin-top: 800px;
+      }
 }
 
-@media only screen and (max-width: 450px) 
+@media only screen and (max-width: 425px) 
 {
-  
+   
     #navbar{
-        width:100%;
-        height:20px;
-   position: fixed;
+        display: none;
     }
-    #container{
-        /* position: fixed; */
-        flex-direction: column;
-        width:100%;
-        /* margin-top: -70px; */
-        
-        /* margin-right: 50px; */
-    }
-    #lcont{
-        width:95%;
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        /* background-color: #333; */
         background-color: black;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 95%;
+        margin-top: -80px;
+        padding-left: 10px;
+      }
+      
+    
+    #cbr{
+        display: flex;
     }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
         background-color: black;
-        width:95%;
-        height:40px;
-        justify-content: space-around;
-        /* padding-left: 20px; */
-    }
-    #about{
-        margin-left: -25px;
+        color:white;
         
-    }
-    .about{
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
+        background-color: black;
+        color: white;
+        margin-top: 10px;
         font-size: large;
-    }
-    #skills{
-        margin-left: -50px;
-    }
-    .skills{
-        font-size: large;
-    }
-    #project{
-        margin-left: -30px;
-    }
-    .project{
-        font-size: large;
-    }
-    #stat{
-        margin-left: -25px;
-    }
-    .stat{
-        font-size: large;
-    }
-    #cont{
-        margin-left: -20px;
-    }
-    .cont{
-        font-size: large;
+       
+      }
+      .icon{
+        font-size: 25px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
     }
     #pheading{
-        width:100%;
-        /* margin-left: 15px; */
+       width:100%;
+        margin-top: 80px;
            }
        
        #pbox{
-        width:95%;
-        /* margin-left: 120px; */
-        height:2650px;
+        width:90%;
+        margin:auto;
+        height:3150px;
+        margin-top: 40px;
+        margin-left: 9px;
        }
        #p1{
-        width:90%;
-        height:900px;
-        /* margin-bottom: 300px; */
+        width:100%;
+        height:1000px;
+        
         flex-direction: column;
         box-shadow: none;
-        margin-left: -30px;
+       
        }
        #lp1{
         width:100%;
-        height:45%;
+        height:55%;
        }
        #rp1{
         width:100%;
@@ -528,22 +713,23 @@ margin-top: 120px;
        }
        #p2{
         height:1080px;
-        margin-top: 380px;
-        margin-left: -15px;
+        margin-top: -10px;
+       
         flex-direction: column;
         box-shadow: none;
        }
        #lp2{
         width:100%;
-        height:45%;
+        height:55%;
        }
        #rp2{
         width:100%;
+        height:45%
        }
        #p3{
         height:1000px;
-        margin-top: 900px;
-        margin-left: -15px;
+        margin-top: -50px;
+       
         flex-direction: column;
         box-shadow: none;
        }
@@ -552,11 +738,12 @@ margin-top: 120px;
        }
        #lp3{
         width:100%;
-        height:40%;
+        height:50%;
        }
    #footer{
     width:100%;
-    height:70px;
+    height:50px;
+    margin-top: 100px;
    }
    
 }

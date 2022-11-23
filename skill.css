@@ -166,7 +166,7 @@ margin-left: 10px;
 #frontbox{
     /* border:1px solid red; */
     width:80%;
-    height:240px;
+    height:260px;
     margin:auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
@@ -218,6 +218,7 @@ margin-left: 10px;
     padding-left: 60px;
     padding-right: 60px;
     margin-top: 30px;
+    
 }
 #fhtml:hover{
     transition: transform .5s;
@@ -241,14 +242,14 @@ margin-left: 10px;
 }
 #sql{
     /* border: 1px solid red; */
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .sql{
-    width:120px;
+    width:150px;
     /* margin-left: -35px;  */
 }
 #sql:hover{
@@ -258,7 +259,7 @@ margin-left: 10px;
 }
 #fhtml{
     /* border:1px solid red; */
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -266,7 +267,7 @@ margin-left: 10px;
 }
 #fcss{
     /* border:1px solid red; */
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -274,22 +275,22 @@ margin-left: 10px;
 }
 #fjs{
     /* border: 1px solid red; */
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .fhtml{
-    width:120px;
+    width:150px;
 }
 .fcss{
-    width:120px;
+    width:150px;
     margin-left: 0px;
     
 }
 .fjs{
-    width:190px;
+    width:220px;
     margin-left: -35px;
 }
 .boot{
@@ -313,14 +314,16 @@ margin-left: 10px;
     background-color:yellow;
 }
 #backbox{
+ 
     width:80%;
-    height:240px;
+    height:280px;
     margin:auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     padding-top: 10px;
     margin-top: 50px;
    background-color: white;
+   box-sizing: border-box;
 }
 #back{
     width:100%;
@@ -342,14 +345,14 @@ margin-left: 10px;
     margin-top: 30px;
 }
 #bjava{
-    width:120px;
+    width:150px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .bjava{
-    width:120px;
+    width:150px;
     height:120px;
 }
 #footer{
@@ -362,116 +365,203 @@ margin-left: 10px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.topnav{
+    display: none;
+}
 
-@media only screen and (max-width: 700px)
+
+
+
+
+@media only screen and (max-width: 956px)
+{
+    #navbar{
+        height:70px;
+    }
+}
+
+@media only screen and (max-width: 768px)
 {
     
+
     #navbar{
-        width:100%;
-        height:50px;
-        margin-top: -120px;
+        display: none;
     }
-    #container{
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        background-color: #333;
         position: fixed;
-        flex-direction: column;
-        width:100%;
-        
-        
-        /* margin-right: 50px; */
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 96%;
+        margin-top: -70px;
+      }
+      
+    
+    #cbr{
+        display: flex;
     }
-    #lcont{
-        width:100%;
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
         background-color: black;
-    }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
+        color:white;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
         background-color: black;
-        width:100%;
-        height:40px;
-        /* justify-content: space-between; */
-        /* padding-left: 20px; */
+        color: white;
+        margin-top: 10px;
+        font-size: large;
+        padding-top: 15px;
+       padding-left: 10px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
     }
-    #heading{
-        margin-top: 120px;
-    }
+    
+    
+        #heading{
+            margin-top: 60px;
+            width:98%;
+            margin-left: 5px;
+        }
+    #frontskill{
+            row-gap: 15px;
+            column-gap: 20px;
+            display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+           }
     #backendskill{
-        row-gap: 15px;
-        column-gap: 20px;
-        display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    justify-items: center;
-       }
-       #backbox{
-        width:80%;
-        height:400px;
+            row-gap: 15px;
+            column-gap: 20px;
+            display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+           }
+    #frontbox{
+        width:98%;
+        height:430px;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    #backbox{
+        width:98%;
+        height:430px;
+        margin-top: 30px;
+        margin-left: 5px;
     }
 }
 
 @media only screen and (max-width: 450px) 
 {
+
+#navbar{
+    display: none;
+}
+/* Style the navigation menu */
+.topnav {
+    display: block;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 96%;
+    margin-top: -60px;
+  }
   
-    #navbar{
-        width:100%;
-        height:50px;
-        position: fixed;
-        margin-top: -120px;
-    }
-    #container{
-        /* position: fixed; */
-        flex-direction: column;
-        width:100%;
-    }
-    #lcont{
-        width:100%;
-        background-color: black;
-    }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
-        background-color: black;
-        width:96%;
-        height:40px;
-        box-sizing: border-box;
-        justify-content:space-evenly;
-        /* padding-left: 20px; */
-    }
-    #about{
-        margin-left: -25px;
-        
-    }
-    .about{
-        font-size: large;
-    }
-    #skills{
-        margin-left: -50px;
-    }
-    .skills{
-        font-size: large;
-    }
-    #project{
-        margin-left: -30px;
-    }
-    .project{
-        font-size: large;
-    }
-    #stat{
-        margin-left: -25px;
-    }
-    .stat{
-        font-size: large;
-    }
-    #cont{
-        margin-left: -20px;
-    }
-    .cont{
-        font-size: large;
-    }
+
+#cbr{
+    display: flex;
+}
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    /* background-color: #ddd; */
+    background-color: black;
+    color:white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    /* background-color: #04AA6D; */
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: large;
+   
+  }
+  .icon{
+    font-size: 25px;
+  }
+
+.resumenav{
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+
     #heading{
-        margin-top: 120px;
+        margin-top: 60px;
         width:100%;
-        /* margin-left: 100px; */
+        margin-left: 5px;
     }
 #frontskill{
         row-gap: 15px;
@@ -491,10 +581,14 @@ margin-left: 10px;
        }
 #frontbox{
     width:100%;
-    height:400px;
+    height:430px;
+    margin-top: 30px;
+    margin-left: 5px;
 }
 #backbox{
     width:100%;
-    height:400px;
+    height:430px;
+    margin-top: 30px;
+    margin-left: 5px;
 }
 }

@@ -2,9 +2,44 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="project.css">
     </head>
     <body>
+
+
+        <div class="topnav">
+            <div id="cbr"
+            <a href="index.html" class="active">Chandra Bhan Yadav</a>
+            <a href="ChandraBhan_Yadav_Resume.pdf" download="ChandraBhan-Yadav-Resume"><button class="resumenav">Resume</button></a> 
+        </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="index.html">About</a>
+              <a href="skill.html">Skills</a>
+              <a href="project.html">Project</a>
+              <a href="stat.html">Statistics</a>
+              <a href="cont.html">Contact</a>
+            
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div id="navbar">
             <div id="container">
                 <div id="lcont">
@@ -101,3 +136,22 @@
         <div id="footer">© 2022 Designed and Built by Chandra Bhan Yadav. Contact : +91 8958325933 or Mail at : cby19073@gmail.com</div>
     </body>
 </html>
+<script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      let head = document.querySelector("#pheading");
+      head.style.marginTop="70px";
+      let top = document.querySelector(".topnav");
+      top.style.marginTop="-70px";
+    } else {
+      x.style.display = "block";
+      let head = document.querySelector("#pheading");
+      head.style.marginTop="310px";
+      let top = document.querySelector(".topnav");
+      top.style.marginTop="-310px";
+    }
+  }
+</script>

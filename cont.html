@@ -2,9 +2,42 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Contact</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="cont.css">
     </head>
     <body>
+
+
+
+        <div class="topnav">
+            <div id="cbr"
+            <a href="index.html" class="active">Chandra Bhan Yadav</a>
+            <a href="ChandraBhan_Yadav_Resume.pdf" download="ChandraBhan-Yadav-Resume"><button class="resumenav">Resume</button></a> 
+        </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="index.html">About</a>
+              <a href="skill.html">Skills</a>
+              <a href="project.html">Project</a>
+              <a href="stat.html">Statistics</a>
+              <a href="cont.html">Contact</a>
+            
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+
+
+
+
+
+
+
+
+
         <div id="navbar">
             <div id="container">
                 <div id="lcont">
@@ -47,8 +80,8 @@
         <div id="rfmbox">
            <a href=""><div id="ee"><img src="https://cdn-icons-gif.flaticon.com/6416/6416396.gif" alt="" class="ee"><div class="see"> cby19073@gmail.com</div></div></a>
            <a href=""> <div id="nn"><img src="https://cdn-icons-gif.flaticon.com/6172/6172514.gif" alt="" class="nn"> <div class="snn">+91 8958325933</div> </div></a>
-           <a href="https://github.com/Cbyadav007" target="_blank"> <div id="gg"><img src="https://media1.giphy.com/avatars/mwooodward/cIe5MvDvX4Vc.gif" alt="" class="gg"><div class="sgg">https://github.com/Cbyadav007</div></div></a>
-            <a href="https://www.linkedin.com/in/chandra-bhan-yadav-9690a81a0" target="_blank"><div id="ll"><img src="https://i.pinimg.com/originals/de/b4/6f/deb46f02a59e3b3a2aa58fac16290d63.gif" alt="" class="ll"><div class="sll">https://www.linkedin.com/in/chandra-bhan-yadav-9690a81a0/</div></div></a>
+           <a href="https://github.com/Cbyadav007" target="_blank"> <div id="gg"><img src="https://media1.giphy.com/avatars/mwooodward/cIe5MvDvX4Vc.gif" alt="" class="gg"><div class="sgg">GitHub Profile</div></div></a>
+            <a href="https://www.linkedin.com/in/chandra-bhan-yadav-9690a81a0" target="_blank"><div id="ll"><img src="https://i.pinimg.com/originals/de/b4/6f/deb46f02a59e3b3a2aa58fac16290d63.gif" alt="" class="ll"><div class="sll">LinkedIn Profile</div></div></a>
                 <a href=""><div id="aa"><img src="https://thumbs.gfycat.com/PertinentUntriedAsianwaterbuffalo-max-1mb.gif" alt="" class="aa"><div class="saa">Varanasi, Uttar Pradesh</div></div></a>
         </div>
     
@@ -78,5 +111,23 @@
       }).then(
         message => alert("Message Sent Successfully !")
       );
+  }
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      let head = document.querySelector("#conthead");
+      head.style.marginTop="70px";
+      let top = document.querySelector(".topnav");
+      top.style.marginTop="-70px";
+    } else {
+      x.style.display = "block";
+      let head = document.querySelector("#conthead");
+      head.style.marginTop="310px";
+      let top = document.querySelector(".topnav");
+      top.style.marginTop="-310px";
+    }
   }
 </script>

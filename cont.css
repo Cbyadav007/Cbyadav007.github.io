@@ -2,12 +2,15 @@ body{
     /* background-color:rgb(139, 231, 139); */
     background-color: black;
 }
+.topnav{
+    display:none;
+}
 #navbar{
     /* border: 1px solid red; */
     height: 60px;
     width:auto;
     background-color:black;
-    margin-top: -60px;
+    margin-top: -70px;
     width:98.8%;
     position:fixed;
 }
@@ -331,68 +334,94 @@ form input{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 956px)
+{
+    #navbar{
+        height:70px;
+    }
+    #formbox{
+        height:580px;
+    }
+    #aboutfmbox{
+        height:420px;
+    }
+}
+@media only screen and (max-width: 768px)
 {
     
     #navbar{
-        width:100%;
-        height:50px;
-        margin-top: -110px;
+        display: none;
     }
-    #container{
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        /* background-color: #333; */
+        background-color: black;
         position: fixed;
-        flex-direction: column;
-        width:100%;
-        /* margin-top: -70px; */
-        
-        /* margin-right: 50px; */
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 97%;
+        margin-top: -70px;
+        padding-left: 10px;
+      }
+      
+    
+    #cbr{
+        display: flex;
     }
-    #lcont{
-        width:100%;
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
         background-color: black;
-    }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
-        background-color: black;
-        width:100%;
-        height:40px;
-        /* justify-content: space-between; */
-        /* padding-left: 20px; */
-    }
-    #about{
-        margin-left: -45px;
+        color:white;
         
-    }
-    .about{
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
+        background-color: black;
+        color: white;
+        margin-top: 10px;
         font-size: large;
+       
+      }
+      .icon{
+        font-size: 25px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
     }
-    #skills{
-        margin-left: -65px;
-    }
-    .skills{
-        font-size: large;
-    }
-    #project{
-        margin-left: -50px;
-    }
-    .project{
-        font-size: large;
-    }
-    #stat{
-        margin-left: -45px;
-    }
-    .stat{
-        font-size: large;
-    }
-    #cont{
-        margin-left: 10px;
-    }
-    .cont{
-        font-size: large;
-    }
+    
   #conthead{
-    margin-top: 100px;
+    margin-top: 70px;
   }
   #formhead{
     width:170px;
@@ -417,35 +446,4 @@ form input{
         height:50%;
         overflow: scroll;
     }
-}
-@media only screen and (max-width: 450px) 
-{
-  
-    #navbar{
-        width:100%;
-        height:20px;
-   position: fixed;
-    }
-    #container{
-        /* position: fixed; */
-        flex-direction: column;
-        width:100%;
-        /* margin-top: -70px; */
-        
-        /* margin-right: 50px; */
-    }
-    #lcont{
-        width:100%;
-        background-color: black;
-    }
-    #rcont{
-        /* flex-direction: column; */
-        /* margin-top: -30px; */
-        background-color: black;
-        width:100%;
-        height:40px;
-        /* justify-content: space-between; */
-        /* padding-left: 20px; */
-    }
-   
 }
