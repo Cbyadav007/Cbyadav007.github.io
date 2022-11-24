@@ -3,21 +3,21 @@
 
 body{
     background-color: rgb(245, 226, 117) ;
-    /* position:relative; */
+    position:relative;
 }
 .topnav{
     display:none
 }
 #navbar{
     /* border: 1px solid red; */
-    margin-top: -100px;
+    margin-top: -80px;
     /* margin-bottom: 50px; */
     width:98.7%;
     height: 60px;
 
     background-color:black;
     position:fixed;
-  overscroll-behavior: none;
+  
 }
 #container{
     display: flex;
@@ -150,18 +150,16 @@ body{
     display:flex;
     justify-content: space-evenly;
     width:100%;
-    height:fit-content;
-    padding-bottom: 15px;
+    height:600px;
     margin:auto;
     /* border:1px solid red; */
-    margin-top: 100px;
+    margin-top: 80px;
     padding-top: 30px;
     background-color: rgb(49, 55, 66);
 }
 #lbox{
     width:45%;
-    height:fit-content;
-    padding-bottom: 20px;
+    height:580px;
     /* border:1px solid red; */
     background-color: rgb(253, 243, 188);
     padding-left: 15px;
@@ -183,7 +181,7 @@ body{
   row-gap: 20px;
     display:grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 80px 80px 80px;
+    grid-template-rows: 60px 60px 60px;
        
 
 }
@@ -249,7 +247,7 @@ body{
 }
 #rbox{
     width:45%;
-    height:630px;
+    height:580px;
     /* border:1px solid green; */
 }
 #resume{
@@ -272,7 +270,7 @@ body{
 }
 .cbphoto{
     width:90%;
-    height:630px;
+    height:580px;
     border-radius: 30px;
 }
 #cbphoto{
@@ -364,8 +362,6 @@ body{
 #skillbox{
     margin-top: 80px;
     /* border:1px solid black; */
-    height:fit-content;
-    padding-bottom: 15px;
     background-color: rgb(49, 55, 66);
     border-radius: 10px;
     padding-bottom: 15px;
@@ -980,7 +976,7 @@ color:greenyellow
     width:90%;
     height:720px;
     /* border:1px solid red; */
-    margin-top: 60px;
+    margin-top: 100px;
     margin: auto;
     padding:20px;
     margin-top: 50px;
@@ -1202,7 +1198,7 @@ form input{
     width:94%;
 }
 #formbutton{
-    background-color:aqua;
+    background-color: red;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
@@ -1212,99 +1208,6 @@ form input{
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     color: black;
-}
-
-
-@media only screen and (max-width: 1248px)
-{
-    #projectbox{
-        height:1650px;
-    }
-    #p1{
-        display:flex;
-        /* border:1px solid black; */
-        height:490px;
-        margin-bottom: 20px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    #lp1{
-        width:50%;
-        height:auto;
-    
-        padding:10px;
-        background-color:white;
-        /* border:1px solid red; */
-        /* overflow: scroll; */
-    }
-    #rp1{
-        width:50%;
-        height:auto;
-        /* border:1px solid red; */
-        padding:10px;
-        background-color: rgb(133, 196, 248);
-    }
-    .rp1{
-        margin-top: 40px;
-    }
-    #p2{
-        height:520px;
-        display:flex;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    .rp2{
-        margin-top: 50px;
-    }
-    #p3{
-        height:440px;
-        margin-top: 35px;
-        display:flex;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    .rp3{
-        margin-top: 30px;
-    }
-    #lp2{
-        width:50%;
-        height:auto;
-        /* border:1px solid red; */
-        padding:10px;
-        background-color: white;
-        /* overflow: scroll; */
-    }
-    #rp2{
-        width:50%;
-        height:auto;
-        /* border:1px solid red; */
-        padding:10px;
-        background-color: rgb(133, 196, 248);
-    }
-    #lp3{
-        width:50%;
-        height:auto;
-        /* border:1px solid red; */
-        padding:10px;
-        background-color: white;
-        /* overflow: scroll; */
-    }
-    #rp3{
-        width:50%;
-        height:auto;
-        /* border:1px solid red; */
-        padding:10px;
-        background-color: rgb(133, 196, 248);
-    }
-}
-@media only screen and (max-width: 1200px)
-{
-    #eduhead{
-        width:230px;
-    }
-    #p3{
-        height:450px;
-    }
-    #footer{
-        margin-top: 180px;
-    }
 }
 @media only screen and (max-width: 1100px)
 {
@@ -1317,9 +1220,6 @@ form input{
 }
 @media only screen and (max-width: 1155px)
 {
-    #lbox{
-    height:620px;
-    }
  #lbox #skilllogo{
     column-gap: 20px;
     display: grid;
@@ -1327,55 +1227,14 @@ form input{
     grid-template-rows: auto;
  }
 }
-@media only screen and (max-width: 1034px)
+@media only screen and (max-width: 1028px)
 {
-    #box{
-        height:780px;
-    }
-    #lbox{
-        height:96%;
-    }
-    #rbox{
-        height:98%;
-    }
-    .cbphoto{
-        height:98%;
-    }
-    #cbphoto{
-        height:100%;
-    }
  #lbox #skilllogo{
     column-gap: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
  }
-#projectbox{
-    height:1800px;
-}
-#p1{
-height:560px;
-}
-#p2{
-height:560px;
-margin-top: 70px;
-}
-#p3{
-    height:520px;
-    margin-top: 145px;
-}
-.rp1{
-    margin-top: 30px;
-    height:88%;
-}
-.rp2{
-    margin-top: 30px;
-    height:88%;
-}
-.rp3{
-    margin-top: 30px;
-    height:88%;
-}
 }
 @media only screen and (max-width: 956px)
 {
@@ -1390,25 +1249,21 @@ margin-top: 70px;
     }
     /* Style the navigation menu */
     .topnav {
-        width: 97%;
-       
         display: block;
         overflow: hidden;
         /* background-color: #333; */
-        background-color:black;
+        background-color: black;
         position: fixed;
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
-       
+        width: 97%;
         margin-top: -70px;
         padding-left: 10px;
       }
       
     
     #cbr{
-        width:350px;
         display: flex;
-     
     }
     
       /* Hide the links inside the navigation menu (except for logo/home) */
@@ -1423,7 +1278,6 @@ margin-top: 70px;
         text-decoration: none;
         font-size: 17px;
         display: block;
-        
       }
       
       /* Style the hamburger menu */
@@ -1459,26 +1313,23 @@ margin-top: 70px;
     .resumenav{
         margin-top: -20px;
         margin-left: 40px;
-       
     }
     
    
 
   
    #box{
-    width:98%;
-
-    height:720px;
+    height:680px;
     margin-top: 70px;
-   margin-left: 5px;
-   
+   /* margin-left: 30px; */
+   width:99%;
    }
     #lbox{
     width:85%;
     /* margin-left: 10px; */
     margin:auto;
     margin-top: -5px;
-    height:98%;
+    height:660px;
    }
    #rbox{
     width:0px;
@@ -1490,8 +1341,8 @@ margin-top: 70px;
    } 
 
    #aboutbox{
-    margin-left: 0px;
-    width:95%;
+    /* margin-left: 30px; */
+    width:93%;
     height:400px;
     
    }
@@ -1510,12 +1361,10 @@ margin-top: 70px;
     margin-left: 20px;
    }
    #skillbox{
-    width:98%;
-    margin-left: 5px;
+    width:97%;
+    /* margin-left: 40px; */
    }
    #projectbox{
-    width:98%;
-    margin-left: 5px;
     height:2800px;
    }
    #pbox{
@@ -1557,15 +1406,8 @@ margin-top: 70px;
     width:100%;
     height:50%;
    }
-   #statisticsbox{
-    width:98%;
-    margin-left: 5px;
-    height: 850px;
-   }
    #edubox{
-    width:90%;
     height:1050px;
-    margin-top: 100px;
    }
    #education{
     margin-left: 30px;
@@ -1574,8 +1416,6 @@ margin-top: 70px;
     grid-template-rows: 200px 200px 200px 200px 200px;
 }
 #formbox{
-    width:98%;
-    margin-left: 5px;
     height:800px;
 
 }
@@ -1605,17 +1445,9 @@ margin-top: 70px;
 #projecthead{
     width:180px;
 }
-#footer{
-    width:98%;
-    margin-left: 5px;
-}
 }
 @media only screen and (max-width: 650px)
 {
-    #box{
-        height:fit-content;
-        padding-bottom: 10px;
-    }
     #aboutbox{
         height:450px;
      } 
@@ -1656,7 +1488,7 @@ margin-top: 70px;
         justify-content: center;
     }
 }
-@media only screen and (max-width: 525px)
+@media only screen and (max-width: 513px)
 {
  #aboutbox{
     height:500px;
@@ -1693,28 +1525,23 @@ justify-items: center;
     #navbar{
         display: none;
     }
-    
     /* Style the navigation menu */
     .topnav {
-        width:98%;
         display: block;
         overflow: hidden;
+        /* background-color: #333; */
         background-color: black;
         position: fixed;
-        
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
-    
-        /* margin-top: -70px; */
+        width: 99%;
+        margin-top: -70px;
         padding-left: 10px;
         margin-left: -10px;
       }
       
     
     #cbr{
-        /* background-color: white; */
-       
-        width:320px;
         display: flex;
     }
     
@@ -1764,18 +1591,16 @@ justify-items: center;
     
     .resumenav{
         margin-top: -20px;
-        margin-left: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        margin-left: 40px;
     }
     
 
    #box{
-    width:98%;
+    width:95%;
     height:1000px;
     margin-top: 70px;
+   /* margin-left: 120px; */
+  
    }
    #lbox #skilllogo{
     display:grid;
@@ -1807,7 +1632,7 @@ justify-items: center;
     flex-direction: column;
     align-items: center;
     /* margin-left: 120px; */
-    width:90%;
+    width:80%;
     height:770px;
     
    }
@@ -1835,7 +1660,7 @@ justify-items: center;
     margin-left: -25px;
    }
    #skillbox{
-    width:92%;
+    width:95%;
   padding:10px;
     align-items: center;
     /* margin-left: 120px; */
@@ -1862,9 +1687,9 @@ justify-items: center;
     height:40px;
    }
    #projectbox{
-    width:98%;
+    width:100%;
     /* margin-left: 120px; */
-    height:2900px;
+    height:3100px;
    }
    #projecthead{
     height:40px;
@@ -1874,55 +1699,45 @@ justify-items: center;
     margin-top: -10px;
    }
    #p1{
-    height:900px;
+    height:1050px;
     margin-bottom: 300px;
     flex-direction: column;
    }
    #lp1{
     width:100%;
-    height:70%;
+    height:50%;
    }
    #rp1{
     width:100%;
-    height:30%;
    }
    #p2{
-    height:950px;
-    margin-top: 470px;
+    height:1140px;
+    margin-top: 500px;
     flex-direction: column;
    }
    #lp2{
     width:100%;
-    height:70%;
+    height:50%;
    }
    #rp2{
     width:100%;
-    height:30%;
    }
    #p3{
-    height:830px;
-    margin-top: 1000px;
+    height:920px;
+    margin-top: 1080px;
     flex-direction: column;
    }
    #rp3{
     width:100%;
-    height:30%;
+    height:45%;
    }
    #lp3{
     width:100%;
-    height:70%;
+    height:55%;
    }
-.rp1{
-    height:90%;
-}
-.rp2{
-    height:90%;
-}
-.rp3{
-    height:90%;
-}
+
 #statisticsbox{
-   width:98%;
+   width:100%;
    /* align-items: center; */
    /* margin-left: 120px; */
 }
@@ -1944,7 +1759,6 @@ height:40px;
     height:35px;
 }
    #edubox{
-    width:87%;
     height:1300px;
     /* margin-left: 120px; */
    }
@@ -1971,7 +1785,7 @@ height:40px;
     margin-left: -25px;
 }
 #formbox{
-    width:90%;
+    width:100%;
     height:830px;
 /* margin-left: 120px; */
 }
@@ -1993,7 +1807,9 @@ height:40px;
 #formhead{
     width:180px;
 }
-
+#footer{
+    /* margin-left: 120px; */
+}
 #eduhead{
     width:220px;
 }
@@ -2003,18 +1819,9 @@ height:40px;
 #projecthead{
     width:180px;
 }
-#footer{
-    width:90%;
-    height:70px;
 }
-}
-@media only screen and (max-width: 375px) 
+@media only screen and (max-width: 320px) 
 {
-    .topnav{
-        width:98%;
-        margin-left: -10;
-        background-color: black;
-    }
    #lcont #resumenav {
         padding-left: -10px;
     }
@@ -2023,8 +1830,8 @@ height:40px;
         margin-left: 0px;
         padding-left: 5px;
         padding-right: 5px;
-        padding-top: 3px;
-        padding-bottom: 3px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     #box{
@@ -2067,20 +1874,19 @@ height:40px;
        #aboutbox{
         flex-direction: column;
         align-items: center;
-        
-        margin-left: 2px;
-        width:87%;
+        /* margin-left: 120px; */
+        width:80%;
         /* margin-left: 5px; */
-        height:830px;
+        height:850px;
         
        }
        #labout{
         width: 90%;
-       
+        margin-top: 0px;
        }
        #rabout{
         width: 90%;
-        
+        margin-top: 0px;
        }
        .aboutpic{
         width:220px;
@@ -2096,11 +1902,13 @@ height:40px;
         margin-left: 70px;
        }
        #labout #smalllogo{
-        margin-left: -30px;
+        margin-left: -50px;
        }
        #skillbox{
         width:95%;
-        margin-left: -2px;
+      /* padding:10px; */
+        align-items: center;
+        /* margin-left: 120px; */
        }
        #fff{
         margin-top: -20px;
@@ -2126,9 +1934,9 @@ height:40px;
         height:40px;
        }
        #projectbox{
-        width:98%;
+        width:100%;
         /* margin-left: 120px; */
-        height:2900px;
+        height:3350px;
        }
        #projecthead{
         height:40px;
@@ -2138,62 +1946,60 @@ height:40px;
         margin-top: -10px;
        }
        #p1{
-        height:900px;
+        height:1050px;
         margin-left: -10px;
         flex-direction: column;
        }
        #lp1{
         width:100%;
-        height:70%;
+        height:60%;
        }
        #rp1{
         width:100%;
-        height:30%;
+        height:40%;
        }
        #p2{
-        height:950px;
-        margin-top: 450px;
+        height:1140px;
+        margin-top: 600px;
         flex-direction: column;
         margin-left: -10px;
        }
        #lp2{
         width:100%;
-        height:70%;
+        height:60%;
        }
        #rp2{
         width:100%;
-        height:30%;
+        height:40%;
        }
        #p3{
-        height:830px;
-        margin-top: 960px;
+        height:980px;
+        margin-top: 1280px;
         flex-direction: column;
         margin-left: -10px;
        }
        #rp3{
         width:100%;
-        height:30%;
+        height:40%;
        }
        .rp1{
-        margin-top: 10px;
-        height:90%;
+        height:98%;
        }
        .rp2{
-        margin-top: 10px;
-        height:90%;
+        height:98%;
        }
        .rp3{
-        margin-top: 10px;
-        height:90%;
+        height:98%;
        }
        #lp3{
         width:100%;
-        height:70%;
+        height:60%;
        }
     
     #statisticsbox{
-       width:98%;
-       height:1200px;
+       width:100%;
+       /* align-items: center; */
+       /* margin-left: 120px; */
     }
     #statisticshead{
     height:40px;
@@ -2214,7 +2020,7 @@ height:40px;
         height:35px;
     }
        #edubox{
-        width:88%;
+        width:80%;
         height:1300px;
         /* margin-left: 120px; */
        }
@@ -2251,25 +2057,25 @@ height:40px;
         margin-left: -25px;
     }
     #formbox{
-        width:98%;
+        width:90%;
         margin:auto;
-        height:880px;
+        height:920px;
         margin-top: 40px;
     /* margin-left: 120px; */
     }
     #aboutfmbox{
-        height:85%;
+        height:80%;
         flex-direction: column;
         align-items: center;
     }
     #lfmabout{
         width:98%;
-        height:55%;
+        height:50%;
     
     }
     #rfmbox{
         width:98%;
-        height:42%;
+        height:60%;
     
         /* overflow: scroll; */
     }
@@ -2292,7 +2098,7 @@ height:40px;
         width:180px;
     }
     #footer{
-        width:98%;
+        
         height:70px;
     }
     #eduhead{

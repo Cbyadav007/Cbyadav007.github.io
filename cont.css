@@ -10,7 +10,7 @@ body{
     height: 60px;
     width:auto;
     background-color:black;
-    margin-top: -60px;
+    margin-top: -70px;
     width:98.8%;
     position:fixed;
 }
@@ -445,67 +445,5 @@ form input{
         width:90%;
         height:50%;
         overflow: scroll;
-    }
-}
-@media only screen and (max-width: 375px) 
-{
-    .topnav{
-        width:98%;
-        margin-left: -10;
-        background-color: black;
-    }
-    .active{
-        margin-top: 10px;
-    }
-    .resumenav{
-        margin-top: -15px;
-        margin-left: 0px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        font-weight: bolder;
-        border: none;
-    }
-    #formbox{
-        width:90%;
-        margin:auto;
-        height:950px;
-        margin-top: 40px;
-    /* margin-left: 120px; */
-    }
-    #aboutfmbox{
-        height:80%;
-        flex-direction: column;
-        align-items: center;
-    }
-    #lfmabout{
-        width:98%;
-        height:50%;
-    
-    }
-    #rfmbox{
-        width:98%;
-        height:45%;
-    
-        /* overflow: scroll; */
-    }
-    #ee{
-        margin-left: -40px;
-    }
-    #nn{
-        margin-left: -40px;
-    }
-    #gg{
-        margin-left: -40px;
-    }
-    #ll{
-        margin-left: -40px;
-    }
-    #aa{
-        margin-left: -40px;
-    }
-    #footer{
-        height:70px;
     }
 }
