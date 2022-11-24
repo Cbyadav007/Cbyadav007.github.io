@@ -165,7 +165,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 #lbox h2{
     font-family: 'Courier New', Courier, monospace;
@@ -298,7 +298,7 @@ body{
     justify-content: space-around;
     background-color: rgb(133, 196, 248);
     border-radius: 5px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 .aboutpic{
     width:250px;
@@ -602,7 +602,7 @@ margin-top: -1px;
     padding:10px;
     background-color:white;
     /* border:1px solid red; */
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 #rp1{
     width:50%;
@@ -629,7 +629,7 @@ margin-top: -1px;
     /* border:1px solid red; */
     padding:10px;
     background-color: white;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 #rp2{
     width:50%;
@@ -644,7 +644,7 @@ margin-top: -1px;
     /* border:1px solid red; */
     padding:10px;
     background-color: white;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 #rp3{
     width:50%;
@@ -1534,9 +1534,10 @@ justify-items: center;
         position: fixed;
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
-        width: 95%;
+        width: 99%;
         margin-top: -70px;
         padding-left: 10px;
+        margin-left: -10px;
       }
       
     
@@ -1818,4 +1819,295 @@ height:40px;
 #projecthead{
     width:180px;
 }
+}
+@media only screen and (max-width: 320px) 
+{
+   #lcont #resumenav {
+        padding-left: -10px;
+    }
+    .resumenav{
+        margin-top: -15px;
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #box{
+        width:98%;
+        margin:auto;
+        height:1050px;
+        margin-top: 70px;
+       /* margin-left: 120px; */
+      
+       }
+       #lbox #skilllogo{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+       }
+      
+    .resume{
+        margin-top: 30px;
+        margin-left: -120px;
+        }
+        .active{
+            font-size: medium;
+        }
+        #lbox{
+        width:80%;
+        margin:auto;
+        margin-top: -5px;
+        height:98%;
+       }
+       #rbox{
+        width:0px;
+        visibility: hidden;
+        /* margin:auto; */
+       }
+       #resume{
+        margin-left: 200px;
+       } 
+    
+       #aboutbox{
+        flex-direction: column;
+        align-items: center;
+        /* margin-left: 120px; */
+        width:80%;
+        /* margin-left: 5px; */
+        height:850px;
+        
+       }
+       #labout{
+        width: 90%;
+        margin-top: 0px;
+       }
+       #rabout{
+        width: 90%;
+        margin-top: 0px;
+       }
+       .aboutpic{
+        width:220px;
+        margin-top: 20px;
+       }
+       #agit{
+        margin-left: 50px;
+       }
+       #amail{
+        margin-left: 60px;
+       }
+       #alinked{
+        margin-left: 70px;
+       }
+       #labout #smalllogo{
+        margin-left: -50px;
+       }
+       #skillbox{
+        width:95%;
+      /* padding:10px; */
+        align-items: center;
+        /* margin-left: 120px; */
+       }
+       #fff{
+        margin-top: -20px;
+       }
+       #frontendskill{
+        width:80%;
+        row-gap: 15px;
+        display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+       }
+       #backendskill{
+        width:80%;
+        row-gap: 15px;
+        display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+       }
+       #skillhead{
+        width:150px;
+        height:40px;
+       }
+       #projectbox{
+        width:100%;
+        /* margin-left: 120px; */
+        height:3350px;
+       }
+       #projecthead{
+        height:40px;
+       }
+       #pbox{
+        height:90%;
+        margin-top: -10px;
+       }
+       #p1{
+        height:1050px;
+        margin-left: -10px;
+        flex-direction: column;
+       }
+       #lp1{
+        width:100%;
+        height:60%;
+       }
+       #rp1{
+        width:100%;
+        height:40%;
+       }
+       #p2{
+        height:1140px;
+        margin-top: 600px;
+        flex-direction: column;
+        margin-left: -10px;
+       }
+       #lp2{
+        width:100%;
+        height:60%;
+       }
+       #rp2{
+        width:100%;
+        height:40%;
+       }
+       #p3{
+        height:980px;
+        margin-top: 1280px;
+        flex-direction: column;
+        margin-left: -10px;
+       }
+       #rp3{
+        width:100%;
+        height:40%;
+       }
+       .rp1{
+        height:98%;
+       }
+       .rp2{
+        height:98%;
+       }
+       .rp3{
+        height:98%;
+       }
+       #lp3{
+        width:100%;
+        height:60%;
+       }
+    
+    #statisticsbox{
+       width:100%;
+       /* align-items: center; */
+       /* margin-left: 120px; */
+    }
+    #statisticshead{
+    height:40px;
+    }
+    
+    #frontskill{
+        
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+    #frontbox{
+        width:95%;
+        height:650px;
+    }
+    #gcal{
+        height:35px;
+    }
+       #edubox{
+        width:80%;
+        height:1300px;
+        /* margin-left: 120px; */
+       }
+       #eduhead{
+        height:40px;
+       }
+       #education{
+        /* margin-left: 30px; */
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 220px 260px 310px 220px 260px;
+    }
+    #emasai{
+        
+        height:200px;
+    }
+    #emtech{
+        height:240px;
+    }
+    #ebtech{
+        height:290px;
+    }
+    #e12{
+        height:200px;
+    }
+    #e10{
+        height:200px;  
+    }
+    #education #ebtech div{
+        margin-left: 0px;
+    }
+    #education div{
+        width:100%;
+        margin-left: -25px;
+    }
+    #formbox{
+        width:90%;
+        margin:auto;
+        height:920px;
+        margin-top: 40px;
+    /* margin-left: 120px; */
+    }
+    #aboutfmbox{
+        height:80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #lfmabout{
+        width:98%;
+        height:50%;
+    
+    }
+    #rfmbox{
+        width:98%;
+        height:60%;
+    
+        /* overflow: scroll; */
+    }
+    #ee{
+        margin-left: -40px;
+    }
+    #nn{
+        margin-left: -40px;
+    }
+    #gg{
+        margin-left: -40px;
+    }
+    #ll{
+        margin-left: -40px;
+    }
+    #aa{
+        margin-left: -40px;
+    }
+    #formhead{
+        width:180px;
+    }
+    #footer{
+        
+        height:70px;
+    }
+    #eduhead{
+        width:220px;
+    }
+    #statisticshead{
+        width:220px;
+    }
+    #projecthead{
+        width:180px;
+    }
 }
