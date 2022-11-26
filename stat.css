@@ -456,3 +456,29 @@ color:greenyellow
         height:650px;
     }
 }
+
+@media only screen and (max-width: 375px) 
+{
+    .topnav{
+        width:98%;
+        margin-left: -10;
+        background-color: black;
+    }
+    .active{
+        margin-top: 10px;
+    }
+    .resumenav{
+        margin-top: -15px;
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-weight: bolder;
+        border:none;
+    }
+   
+    #footer{
+        height:70px;
+    }
+}

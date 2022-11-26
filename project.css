@@ -290,9 +290,9 @@ body{
    
 }
 .rp1{
-    margin-top: 9px;
+    margin-top: 20px;
     width:93%;
-    height:95%;
+    height:90%;
     transition: transform .5s;
 }
 #rp2{
@@ -301,18 +301,18 @@ body{
 }
 .rp2{
     width:93%;
-    height:94%;
+    height:90%;
     transition: transform .5s;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 #rp3{
     text-align: center;
 }
 .rp3{
     width:93%;
-    height:95%;
+    height:90%;
     transition: transform .5s;
-    margin-top: 8px; 
+    margin-top: 20px; 
 }
 
 .rp1:hover{
@@ -371,6 +371,15 @@ button{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+@media only screen and (max-width: 1200px)
+{
+    #p3{
+        height:450px;
+    }
+    #footer{
+        margin-top: 180px;
+    }
+}
 @media only screen and (max-width: 1030px)
 {
     #pbox{
@@ -394,13 +403,13 @@ button{
     height:480px;
   }
   .rp1{
-    height: 98%;
+    height: 90%;
   }
   .rp2{
-    height: 98%;
+    height: 90%;
   }
   .rp3{
-    height: 98%;
+    height: 90%;
   }
   #footer{
     margin-top: 100px;
@@ -429,19 +438,19 @@ button{
         height: 550px;
       }
       .rp1{
-        height: 98%;
+        height: 90%;
       }
       #p2{
         height:570px;
       }
       .rp2{
-        height: 98%;
+        height: 90%;
       }
       #p3{
         height:520px;
       }
       .rp3{
-        height: 98%;
+        height: 90%;
       }
       #footer{
         margin-top: 100px;
@@ -689,15 +698,17 @@ margin-top: 70px;
            }
        
        #pbox{
-        width:90%;
+        width:95%;
         margin:auto;
-        height:3150px;
+        height:2850px;
         margin-top: 40px;
-        margin-left: 9px;
+        margin-left: 0px;
+        /* background-color: green; */
        }
        #p1{
+       
         width:100%;
-        height:1000px;
+        height:900px;
         
         flex-direction: column;
         box-shadow: none;
@@ -705,45 +716,76 @@ margin-top: 70px;
        }
        #lp1{
         width:100%;
-        height:55%;
+        height:70%;
        }
        #rp1{
         width:100%;
-        height: 45%;
+        height: 30%;
+       }
+       .rp1{
+        height:90%;
        }
        #p2{
-        height:1080px;
-        margin-top: -10px;
+        height:950px;
+        margin-top: -100px;
        
         flex-direction: column;
         box-shadow: none;
        }
        #lp2{
         width:100%;
-        height:55%;
+        height:70%;
        }
        #rp2{
         width:100%;
-        height:45%
+        height:30%
+       }
+       .rp2{
+        height:90%;
        }
        #p3{
-        height:1000px;
-        margin-top: -50px;
+        height:830px;
+        margin-top: -280px;
        
         flex-direction: column;
         box-shadow: none;
        }
        #rp3{
         width:100%;
+        height:30%;
+       }
+       .rp3{
+        height:90%;
        }
        #lp3{
         width:100%;
-        height:50%;
+        height:70%;
        }
    #footer{
     width:100%;
-    height:50px;
-    margin-top: 100px;
+    height:70px;
+    margin-top: 0px;
    }
    
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .topnav{
+        width:98%;
+        margin-left: -10;
+        background-color: black;
+    }
+    .active{
+        margin-top: 10px;
+    }
+    .resumenav{
+        margin-top: -15px;
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-weight: bolder;
+    }
 }

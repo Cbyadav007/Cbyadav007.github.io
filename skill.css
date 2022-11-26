@@ -496,12 +496,13 @@ margin-left: 10px;
 .topnav {
     display: block;
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: black;
     position: fixed;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     width: 96%;
-    margin-top: -60px;
+    margin-top: -70px;
   }
   
 
@@ -559,9 +560,9 @@ margin-left: 10px;
 
 
     #heading{
-        margin-top: 60px;
+        margin-top: 70px;
         width:100%;
-        margin-left: 5px;
+        /* margin-left: 5px; */
     }
 #frontskill{
         row-gap: 15px;
@@ -591,4 +592,74 @@ margin-left: 10px;
     margin-top: 30px;
     margin-left: 5px;
 }
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .topnav{
+        width:100%;
+        margin-left: -10;
+        background-color: black;
+    }
+    .active{
+        margin-top: 0px;
+    }
+    .resumenav{
+        margin-top: -15px;
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-weight: bolder;
+        border:none;
+    }
+#skillbox{
+    width:95%;
+  /* padding:10px; */
+    align-items: center;
+    /* margin-left: 120px; */
+   }
+ 
+   #frontskill{
+    width:80%;
+    margin-left: -20px;
+    row-gap: 15px;
+    display:grid;
+grid-template-columns: repeat(1,1fr);
+grid-template-rows: auto;
+justify-items: center;
+   }
+   #backendskill{
+    width:80%;
+    margin-left: -20px;
+    row-gap: 15px;
+    display:grid;
+grid-template-columns: repeat(1,1fr);
+grid-template-rows: 150px 150px 150px 150px;
+justify-items: center;
+   }
+   .sql{
+    width:140px;
+    margin-left: 5px;
+   }
+   #skillhead{
+    width:150px;
+    height:40px;
+   }
+   #frontbox{
+    width:90%;
+    margin:auto;
+    margin-top: 30px;
+    height:650px;
+   }
+   #backbox{
+    width:90%;
+    margin:auto;
+    margin-top: 30px;
+    height:750px
+   }
+   #footer{
+    height:70px;
+   }
 }
