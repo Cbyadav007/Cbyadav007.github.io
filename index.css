@@ -583,7 +583,7 @@ margin-top: -1px;
     padding:30px;
     row-gap: 50px;
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 670px 445px 440px 388px;
+    grid-template-rows: 445px 440px 388px;
   /* background-color: rgb(3, 3, 44); */
     /* border:1px solid red; */
     margin-top: 20px;
@@ -592,44 +592,6 @@ margin-top: -1px;
     width:100%;
     /* border:1px solid green;   */
 }
-
-
-#p0{
-    height: 650px;
-    display:flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-#lp0{
-    width:50%;
-    height:100%;
-
-    padding:10px;
-    background-color:white;
-    /* overflow: scroll; */
-    /* border:1px solid red; */
-}
-#rp0{
-    width:50%;
-    height:100%;
-    /* border:1px solid red; */
-    padding:10px;
-    background-color: rgb(133, 196, 248);
-}
-.rp0{
-    margin-top: 26px;
-    margin-left: 25px;
-    width:92%;
- 
-    height:92%;
-    transition: transform .5s;
-}
-.rp0:hover{
-    transform: scale(1.1);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
-}
-
-
 #p1{
     display:flex;
     /* border:1px solid black; */
@@ -695,10 +657,6 @@ margin-top: -1px;
     padding:10px;
     background-color: rgb(133, 196, 248);
 }
-#lp0 div{
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 10px;
-}
 #lp1 div{
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 10px;
@@ -732,9 +690,6 @@ margin-top: -1px;
 #a3{
     font-weight: bolder;
     font-style: italic; 
-}
-#lp0 h2{
-    font-family: 'Courier New', Courier, monospace;
 }
 #lp1 h2{
     font-family: 'Courier New', Courier, monospace;
@@ -992,39 +947,11 @@ color:greenyellow
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
-#githubstatus{
-    
-    background-color:rgb(1, 1, 19);
-    width:80%;
-    height:650px;
-
-    margin:auto;
-    text-align: center;
-    margin-top: 50px;
-    border-radius: 10px;
-    padding: 20px;
-}
-
- #gitstatus{
-   
-    width:90%;
-   
-    row-gap: 20px;
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 200px 250px 250px;
-    
- }
-
-
-
-
 #cale{
     margin-top: 50px;
     background-color: rgb(49, 55, 66);
     border-radius: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color:white;
 }
 #gcal{
@@ -1291,7 +1218,7 @@ form input{
 @media only screen and (max-width: 1248px)
 {
     #projectbox{
-        height:2400px;
+        height:1650px;
     }
     #p1{
         display:flex;
@@ -1379,31 +1306,6 @@ form input{
         margin-top: 180px;
     }
 }
-@media only screen and (max-width: 1160px)
-{
-
-    #pbox{
-        /* width:100%; */
-    
-        display:grid;
-        column-gap: 20px;
-        padding:30px;
-        row-gap: 50px;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: 750px 445px 440px 388px;
-      /* background-color: rgb(3, 3, 44); */
-        /* border:1px solid red; */
-        margin-top: 20px;
-    }
-    
-    
-    #p0{
-        height: 730px;
-        display:flex;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-}
-
 @media only screen and (max-width: 1100px)
 {
 #smalllogo{
@@ -1449,7 +1351,7 @@ form input{
     grid-template-rows: auto;
  }
 #projectbox{
-    height:2700px;
+    height:1800px;
 }
 #p1{
 height:560px;
@@ -1481,56 +1383,6 @@ margin-top: 70px;
         height:70px;
     }
 }
-@media only screen and (max-width: 880px)
-{
-    #projectbox{
-        height:3000px;
-    }
-    #pbox{
-        /* width:100%; */
-    
-        display:grid;
-        column-gap: 20px;
-        padding:30px;
-        row-gap: 50px;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: 880px 445px 650px 388px;
-      /* background-color: rgb(3, 3, 44); */
-        /* border:1px solid red; */
-        margin-top: 20px;
-    }
-    
-    
-    #p0{
-        height: 860px;
-        display:flex;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    #p2{
-        height:630px;
-    }
-
-
-    #githubstatus{
-        height:680px;
-    }
-
-  .gitstats{
-    width:90%;
-    margin-left: 60px;
-  }
-  .gitcontri{
-    width:90%;
-    margin-left: 60px;
-    /* margin-top: -40px; */
-  }
-  .gitlanguage{
-    width:90%;
-    margin-top: -30px;
-    margin-left: 60px;
-  }
-}
-
 @media only screen and (max-width: 768px)
 {
     #navbar{
@@ -1664,32 +1516,15 @@ margin-top: 70px;
    #projectbox{
     width:98%;
     margin-left: 5px;
-    height:3600px;
+    height:2800px;
    }
    #pbox{
-   margin-left: -19px;
     height:90%;
- 
-   }
-   #p0{
-    height:1050px;
-    margin-bottom: 300px;
-    flex-direction: column;
-    box-shadow: none;
-   }
-   #lp0{
-    width:100%;
-    height:60%;
-   }
-   #rp0{
-    width:100%;
-    height:40%;
    }
    #p1{
     height:850px;
-   margin-top: 160px;
+    margin-bottom: 300px;
     flex-direction: column;
-    box-shadow: none;
    }
    #lp1{
     width:100%;
@@ -1700,9 +1535,8 @@ margin-top: 70px;
    }
    #p2{
     height:850px;
-    margin-top: 490px;
+    margin-top: 450px;
     flex-direction: column;
-    box-shadow: none;
    }
    #lp2{
     width:100%;
@@ -1713,13 +1547,11 @@ margin-top: 70px;
    }
    #p3{
     height:750px;
-    margin-top: 600px;
+    margin-top: 900px;
     flex-direction: column;
-    box-shadow: none;
    }
    #rp3{
     width:100%;
- 
    }
    #lp3{
     width:100%;
@@ -1728,7 +1560,7 @@ margin-top: 70px;
    #statisticsbox{
     width:98%;
     margin-left: 5px;
-    height: 1450px;
+    height: 850px;
    }
    #edubox{
     width:90%;
@@ -1777,29 +1609,6 @@ margin-top: 70px;
     width:98%;
     margin-left: 5px;
 }
-
-
-#githubstatus{
-    height:620px;
-}
-
-.gitstats{
-width:90%;
-margin-left: 50px;
-/* margin-top: -50px; */
-}
-.gitcontri{
-width:90%;
-margin-top: -10px;
-margin-left: 50px;
-}
-.gitlanguage{
-width:90%;
-margin-top: -70px;
-margin-left: 50px;
-}
-
-
 }
 @media only screen and (max-width: 650px)
 {
@@ -1834,66 +1643,6 @@ margin-left: 50px;
         justify-content: center;
     }
 }
-
-@media only screen and (max-width: 630px)
-{
-    #projectbox{
-        width:98%;
-        margin-left: 5px;
-        height:4000px;
-       }
-       #pbox{
-        height:90%;
-     
-       }
-       #p0{
-        height:1200px;
-        margin-bottom: 300px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-     
-       #p1{
-        height:850px;
-       margin-top: 310px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-    #lp1{
-        height:60%;
-    }
-    #rp1{
-        height:40%;
-    }
-       #p2{
-        height:870px;
-        margin-top: 700px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-       #lp2{
-        width:100%;
-        height:60%;
-       }
-       #rp2{
-        width:100%;
-        height:40%;
-       }
-       #p3{
-        height:750px;
-        margin-top: 910px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-       #rp3{
-        width:100%;
-     height:40%;
-       }
-       #lp3{
-        width:100%;
-        height:60%;
-       }
-}
 @media only screen and (max-width: 550px)
 {
     #frontbox{
@@ -1905,29 +1654,6 @@ margin-left: 50px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: auto;
         justify-content: center;
-    }
-    #statisticsbox
-    {
-        height:1850px;
-    }
-    #githubstatus{
-        height:500px;
-    }
-    
-    .gitstats{
-    width:90%;
-    margin-left: 50px;
-    /* margin-top: -50px; */
-    }
-    .gitcontri{
-    width:90%;
-    margin-top: -60px;
-    margin-left: 50px;
-    }
-    .gitlanguage{
-    width:90%;
-    margin-top: -170px;
-    margin-left: 50px;
     }
 }
 @media only screen and (max-width: 525px)
@@ -1959,68 +1685,6 @@ justify-items: center;
     grid-template-rows: auto;
     justify-items: center;
     }
-
-    #projectbox{
-        width:98%;
-        margin-left: 5px;
-        height:4300px;
-       }
-       #pbox{
-        height:90%;
-     
-       }
-       #p0{
-        height:1200px;
-        margin-bottom: 300px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-       #lp0{
-        height:70%;
-    }
-    #rp0{
-        height:30%;
-    }
-       #p1{
-        height:900px;
-       margin-top: 310px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-    #lp1{
-        height:60%;
-    }
-    #rp1{
-        height:40%;
-    }
-       #p2{
-        height:1000px;
-        margin-top: 750px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-       #lp2{
-        width:100%;
-        height:60%;
-       }
-       #rp2{
-        width:100%;
-        height:40%;
-       }
-       #p3{
-        height:920px;
-        margin-top: 1090px;
-        flex-direction: column;
-        box-shadow: none;
-       }
-       #rp3{
-        width:100%;
-     height:40%;
-       }
-       #lp3{
-        width:100%;
-        height:60%;
-       }
 }
 
 @media only screen and (max-width: 425px) 
@@ -2200,21 +1864,19 @@ justify-items: center;
    #projectbox{
     width:98%;
     /* margin-left: 120px; */
-    height:4150px;
+    height:2900px;
    }
    #projecthead{
     height:40px;
    }
    #pbox{
-    height:95%;
+    height:90%;
     margin-top: -10px;
-    
    }
    #p1{
     height:900px;
     margin-bottom: 300px;
     flex-direction: column;
-   
    }
    #lp1{
     width:100%;
@@ -2226,7 +1888,7 @@ justify-items: center;
    }
    #p2{
     height:950px;
-    margin-top: 750px;
+    margin-top: 470px;
     flex-direction: column;
    }
    #lp2{
@@ -2239,7 +1901,7 @@ justify-items: center;
    }
    #p3{
     height:830px;
-    margin-top: 1040px;
+    margin-top: 1000px;
     flex-direction: column;
    }
    #rp3{
@@ -2250,21 +1912,14 @@ justify-items: center;
     width:100%;
     height:70%;
    }
-   .rp0{
-    margin-top: 15px;
-    margin-left: 15px;
-   }
 .rp1{
     height:90%;
-    margin-top: 15px;
 }
 .rp2{
     height:90%;
-    margin-top: 15px;
 }
 .rp3{
     height:90%;
-    margin-top: 15px;
 }
 #statisticsbox{
    width:98%;
@@ -2348,11 +2003,6 @@ height:40px;
 #projecthead{
     width:180px;
 }
-
-
-
-
-
 #footer{
     width:90%;
     height:70px;
@@ -2364,7 +2014,6 @@ height:40px;
         width:98%;
         margin-left: -10;
         background-color: black;
-      
     }
    #lcont #resumenav {
         padding-left: -10px;
@@ -2419,7 +2068,7 @@ height:40px;
         flex-direction: column;
         align-items: center;
         
-        margin-left: 4px;
+        margin-left: 2px;
         width:87%;
         /* margin-left: 5px; */
         height:830px;
@@ -2451,7 +2100,7 @@ height:40px;
        }
        #skillbox{
         width:95%;
-        margin-left: -1px;
+        margin-left: -2px;
        }
        #fff{
         margin-top: -20px;
@@ -2477,10 +2126,9 @@ height:40px;
         height:40px;
        }
        #projectbox{
-        width:99%;
-        margin-left: 2px;
-        height:4150px;
-        border-radius: 10px;
+        width:98%;
+        /* margin-left: 120px; */
+        height:2900px;
        }
        #projecthead{
         height:40px;
@@ -2491,7 +2139,7 @@ height:40px;
        }
        #p1{
         height:900px;
-       
+        margin-left: -10px;
         flex-direction: column;
        }
        #lp1{
@@ -2504,9 +2152,9 @@ height:40px;
        }
        #p2{
         height:950px;
-        margin-top: 750px;
+        margin-top: 450px;
         flex-direction: column;
-     
+        margin-left: -10px;
        }
        #lp2{
         width:100%;
@@ -2518,15 +2166,14 @@ height:40px;
        }
        #p3{
         height:830px;
-        margin-top: 1040px;
+        margin-top: 960px;
         flex-direction: column;
-     
+        margin-left: -10px;
        }
        #rp3{
         width:100%;
         height:30%;
        }
-       
        .rp1{
         margin-top: 10px;
         height:90%;
@@ -2546,28 +2193,7 @@ height:40px;
     
     #statisticsbox{
        width:98%;
-       height:1700px;
-       border-radius: 10px;
-    }
-   
-    #githubstatus{
-        height:360px;
-    }
-    
-    .gitstats{
-    width:90%;
-    margin-left: 30px;
-    /* margin-top: -50px; */
-    }
-    .gitcontri{
-    width:90%;
-    margin-top: -100px;
-    margin-left: 30px;
-    }
-    .gitlanguage{
-    width:90%;
-    margin-top: -250px;
-    margin-left: 30px;
+       height:1200px;
     }
     #statisticshead{
     height:40px;
