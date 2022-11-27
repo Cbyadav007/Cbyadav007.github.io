@@ -1,0 +1,919 @@
+body{
+    background-color:rgba(255, 208, 0, 0.205);
+}
+.topnav{
+    display:none
+}
+#navbar{
+    /* border: 1px solid red; */
+    height: 60px;
+    width:auto;
+    background-color:black;
+    margin-top: -70px;
+    width:98.8%;
+    position:fixed;
+}
+#lcont{
+    width:40%;
+    display:flex
+}
+#resumenav{
+    padding:10px 5px 10px 5px;
+}
+.resumenav{
+    padding:10px 10px 10px 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.resumenav:hover{
+    background-color: green;
+    color:white;
+}
+#home{
+    width:300px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    /* background-color: black; */
+    /* border-radius: 10px; */
+  margin-left: 20px;
+}
+.home:hover{
+    color:greenyellow;
+}
+.home{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#project{
+    width:100px;
+    height:30px;
+    
+   
+    margin-top: 13px;
+/* margin-left: -10px; */
+}
+.project:hover{
+    color:orange;
+}
+.project{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color:greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.about:hover{
+    color:orange;
+}
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 22px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tech{
+    width:150px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -25px;
+}
+#tech:hover{
+    color:orange;  
+}
+#skills{
+    width:100px;
+    height:30px;
+    /* border:1px solid black; */
+    margin-top: 13px;
+    margin-left: -15px;
+ 
+}
+.skills:hover{
+    color:orange;
+}
+.skills{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#stat{
+    margin-top: 13px;
+    margin-left: -20px;
+}
+.cont{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cont{
+    margin-top: 13px;
+    margin-left: -20px;
+}
+.cont:hover{
+    color:orange;  
+}
+#container{
+    display: flex;
+    justify-content:space-between;
+}
+#rcont{
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid green; */
+    width:60%;
+    height:60px;
+}
+
+#pheading{
+    width:100%;
+    height:90px;
+    /* border:1px solid red; */
+    margin-top: 70px;
+    display: flex;
+    justify-content:center;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    background-color: rgb(133, 196, 248);
+}
+.pheading{
+    width:250px;
+    height:30px;
+    /* margin:auto; */
+    font-size: 28px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 35px;
+    /* border:1px solid green; */
+}
+.plogo{
+    width:70px;
+    margin-top: 22px;
+}
+#pbox{
+    width:95%;
+    margin:auto;
+    display:grid;
+    /* column-gap: 20px; */
+    /* padding:30px; */
+    row-gap: 30px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 670px 475px  475px 388px;
+  /* background-color: rgb(3, 3, 44); */
+    /* border:1px solid red; */
+    margin-top: 30px;
+}
+#pbox>div{
+    width:100%;
+    /* border:1px solid green;   */
+}
+#p0{
+    height: 650px;
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lp0{
+    width:50%;
+    height:100%;
+
+    padding:10px;
+    background-color:white;
+    /* overflow: scroll; */
+    /* border:1px solid red; */
+}
+#rp0{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+    padding:10px;
+    background-color: rgb(133, 196, 248);
+}
+.rp0{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:93%;
+ 
+    height:90%;
+    transition: transform .5s;
+}
+.rp0:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+#p1{
+    height: 460px;
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lp1{
+    width:50%;
+    height:100%;
+
+    padding:10px;
+    background-color:white;
+    /* overflow: scroll; */
+    /* border:1px solid red; */
+}
+#rp1{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+    padding:10px;
+    background-color: rgb(133, 196, 248);
+}
+
+#p2{
+    height: 460px;
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lp2{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+    padding:10px;
+    background-color: white;
+    /* overflow: scroll; */
+}
+#p3{
+    height: 380px;
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lp3{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+    padding:10px;
+    background-color: white;
+    /* overflow: scroll; */
+}
+#rp2{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+    padding:10px;
+    background-color: rgb(133, 196, 248);
+}
+#rp3{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+    padding:10px;
+    background-color: rgb(133, 196, 248);
+}
+#lp0 div{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+#lp1 div{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+#lp2 div{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px; 
+}
+#lp3 div{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px; 
+}
+#tp1{
+    font-weight: bolder;
+   
+}
+#tp2{
+    font-weight: bolder;
+}
+#a1{
+    font-weight: bolder;
+   font-style: italic;
+}
+#a2{
+    font-weight: bolder;
+   font-style: italic;
+}
+#lp0 h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#lp1 h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#lp2 h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#lp3 h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rp1{
+    text-align: center;
+   
+}
+.rp1{
+    margin-top: 20px;
+    width:93%;
+    height:90%;
+    transition: transform .5s;
+}
+#rp2{
+    text-align: center;
+   
+}
+.rp2{
+    width:93%;
+    height:90%;
+    transition: transform .5s;
+    margin-top: 20px;
+}
+#rp3{
+    text-align: center;
+}
+.rp3{
+    width:93%;
+    height:90%;
+    transition: transform .5s;
+    margin-top: 20px; 
+}
+
+.rp1:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.rp2:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.rp3:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+#tp1:hover{
+    transform: scale(1.1);
+    margin-left: 30px;
+    color:blue;
+}
+#tp2:hover{
+    transform: scale(1.1);
+    margin-left: 30px;
+    color:blue;
+}
+#button1{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding:10px;
+    background-color: orange;
+    border:none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#p1b1:hover{
+    background-color: greenyellow;
+}
+#p1b2:hover{
+    background-color: greenyellow;
+}
+
+
+
+#footer{
+    text-align: center;
+    width:100%;
+    height:40px;
+    /* border:1px solid red; */
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media only screen and (max-width: 1200px)
+{
+    #p3{
+        height:450px;
+    }
+    #footer{
+        margin-top: 180px;
+    }
+}
+@media only screen and (max-width: 1150px)
+{
+    #pbox{
+        width:95%;
+        margin:auto;
+        display:grid;
+        /* column-gap: 20px; */
+        /* padding:30px; */
+        row-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 760px 475px  475px 388px;
+      /* background-color: rgb(3, 3, 44); */
+        /* border:1px solid red; */
+        margin-top: 30px;
+    }
+    #p0{
+        height:730px;
+    }
+
+}
+@media only screen and (max-width: 1030px)
+{
+    #pbox{
+        
+        display:grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 780px 530px 580px 458px;
+      
+        margin-top: 30px;
+    }
+
+    #p0{
+        height:750px;
+    }
+  #p1{
+    height: 480px;
+  }
+  #p2{
+    height:530px;
+  }
+  #p3{
+    height:480px;
+  }
+  .rp1{
+    height: 90%;
+  }
+  .rp2{
+    height: 90%;
+  }
+  .rp3{
+    height: 90%;
+  }
+  #footer{
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 956px)
+{
+    #navbar{
+        height:70px;
+    }
+}
+@media only screen and (max-width: 880px)
+{
+    #pbox{
+        
+        display:grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 800px 570px 590px 550px;
+      
+        margin-top: 30px;
+    }
+    #p0{
+        height:770px;
+    }
+
+    #p1{
+        height: 550px;
+      }
+      .rp1{
+        height: 90%;
+      }
+      #p2{
+        height:570px;
+      }
+      .rp2{
+        height: 90%;
+      }
+      #p3{
+        height:520px;
+      }
+      .rp3{
+        height: 90%;
+      }
+      #footer{
+        margin-top: 100px;
+      }
+}
+@media only screen and (max-width: 768px)
+{
+  
+    #navbar{
+        display: none;
+    }
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        /* background-color: #333; */
+        background-color: black;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 97%;
+        margin-top: -70px;
+        padding-left: 10px;
+      }
+      
+    
+    #cbr{
+        display: flex;
+    }
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
+        background-color: black;
+        color:white;
+        
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: large;
+       
+      }
+      .icon{
+        font-size: 25px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    
+   #pheading{
+margin-top: 70px;
+   }
+    #pbox{
+        width:95%;
+        margin:auto;
+        margin-left: 9px;
+        height:3750px;
+        margin-top: 40px;
+        
+            /* display:grid;
+            row-gap: 30px;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: 800px 570px 590px 550px;
+          
+            margin-top: 30px; */
+        
+       }
+       #p0{
+        height:1200px;
+        flex-direction: column;
+       }
+       #lp0{
+        width:100%;
+        height:50%;
+       }
+       #rp0{
+        width:100%;
+        height:50%;
+       }
+       #p1{
+        height:850px;
+        flex-direction: column;
+        margin-top: 410px;
+       }
+       #lp1{
+        width:100%;
+        height:50%;
+       }
+       #rp1{
+        width:100%;
+       }
+       #p2{
+        height:900px;
+        margin-top: 700px;
+        flex-direction: column;
+       }
+       #lp2{
+        width:100%;
+        height:50%;
+       }
+       #rp2{
+        width:100%;
+        height:50%;
+       }
+       #p3{
+        height:750px;
+        margin-top: 1020px;
+        flex-direction: column;
+       }
+       #rp3{
+        width:100%;
+        height:50%;
+       }
+       #lp3{
+        width:100%;
+        height:50%;
+       }
+       #footer{
+        margin-top: 150px;
+       }
+}
+
+@media only screen and (max-width: 640px)
+{
+    #pbox{
+        height:3950px;
+    }
+#p0{
+    height:1360px;
+}
+#p1{
+    margin-top: 580px;
+}
+#p2{
+    margin-top: 880px;
+}
+#p3{
+    margin-top: 1200px;
+}
+}
+
+@media only screen and (max-width: 505px)
+{
+    #pbox{
+        height:4100px;
+        display:grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 950px 1030px 1150px 1000px;
+        margin-left: 9px;
+        margin-top: 30px;
+    }
+
+#p0{
+    height:1590px;
+}
+    #p1{
+        height: 1020px;
+        margin-top: 650px;
+      }
+      .rp1{
+        height:98%;
+      }
+      #p2{
+        height:1110px;
+        margin-top: 650px;
+      }
+      .rp2{
+        height:98%;
+      }
+      #p3{
+        height:1000px;
+        margin-top: 620px;
+      }
+      .rp3{
+        height:98%;
+      }
+      #footer{
+        margin-top: 800px;
+      }
+}
+
+@media only screen and (max-width: 425px) 
+{
+   
+    #navbar{
+        display: none;
+    }
+    /* Style the navigation menu */
+    .topnav {
+        display: block;
+        overflow: hidden;
+        /* background-color: #333; */
+        background-color: black;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 95%;
+        margin-top: -80px;
+        padding-left: 10px;
+      }
+      
+    
+    #cbr{
+        display: flex;
+    }
+    
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        /* background-color: #ddd; */
+        background-color: black;
+        color:white;
+        
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        /* background-color: #04AA6D; */
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        font-size: large;
+       
+      }
+      .icon{
+        font-size: 25px;
+      }
+    
+    .resumenav{
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    #pheading{
+       width:100%;
+        margin-top: 80px;
+           }
+       
+       #pbox{
+        width:95%;
+        margin:auto;
+        height:4050px;
+        margin-top: 40px;
+        margin-left: 0px;
+        /* background-color: green; */
+       }
+       #p0{
+        width:100%;
+        height:1200px;
+        
+        flex-direction: column;
+        box-shadow: none;
+       }
+       #lp0{
+        width:100%;
+        height:70%;
+       }
+       #rp0{
+        width:100%;
+        height: 30%;
+       }
+       .rp0{
+        height:90%;
+       }
+
+       #p1{
+       
+        width:100%;
+        height:900px;
+        margin-top: 250px;
+        flex-direction: column;
+        box-shadow: none;
+       
+       }
+       #lp1{
+        width:100%;
+        height:70%;
+       }
+       #rp1{
+        width:100%;
+        height: 30%;
+       }
+       .rp1{
+        height:90%;
+       }
+       #p2{
+        height:950px;
+        margin-top: 120px;
+       
+        flex-direction: column;
+        box-shadow: none;
+       }
+       #lp2{
+        width:100%;
+        height:70%;
+       }
+       #rp2{
+        width:100%;
+        height:30%
+       }
+       .rp2{
+        height:90%;
+       }
+       #p3{
+        height:830px;
+        margin-top: -80px;
+       
+        flex-direction: column;
+        box-shadow: none;
+       }
+       #rp3{
+        width:100%;
+        height:30%;
+       }
+       .rp3{
+        height:90%;
+       }
+       #lp3{
+        width:100%;
+        height:70%;
+       }
+   #footer{
+    width:100%;
+    height:70px;
+    margin-top: 0px;
+   }
+   
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .topnav{
+        width:98%;
+        margin-left: -10;
+        background-color: black;
+    }
+    .active{
+        margin-top: 10px;
+    }
+    .resumenav{
+        margin-top: -15px;
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-weight: bolder;
+    }
+}
