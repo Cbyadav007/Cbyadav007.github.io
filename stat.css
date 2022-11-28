@@ -292,6 +292,37 @@ color:greenyellow
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
+
+#githubstatus{
+    
+    background-color:rgb(1, 1, 19);
+    width:80%;
+    height:650px;
+
+    margin:auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+ #gitstatus{
+   
+    width:90%;
+   
+    row-gap: 20px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 200px 250px 250px;
+    
+ }
+
+
+
+
+
+
 #cale{
     width:100%;
     margin-top: 50px;
@@ -339,7 +370,28 @@ color:greenyellow
         height:70px;
     }
 }
+@media only screen and (max-width: 830px)
+{
+    
+    #githubstatus{
+        height:680px;
+    }
 
+  .gitstats{
+    width:90%;
+    margin-left: 60px;
+  }
+  .gitcontri{
+    width:90%;
+    margin-left: 60px;
+    /* margin-top: -40px; */
+  }
+  .gitlanguage{
+    width:90%;
+    margin-top: -30px;
+    margin-left: 60px;
+  }
+}
 @media only screen and (max-width: 768px)
 {
     
@@ -418,6 +470,11 @@ color:greenyellow
         margin-top: 70px;
     }
     
+
+
+
+
+
   #gcal{
     height:40px;
   }
@@ -455,6 +512,26 @@ color:greenyellow
     #frontbox{
         height:650px;
     }
+
+    #githubstatus{
+        height:430px;
+    }
+
+  .gitstats{
+    width:90%;
+    margin-left: 20px;
+   /* margin-top: -50px; */
+  }
+  .gitcontri{
+    width:90%;
+    margin-top: -80px;
+    margin-left: 20px;
+  }
+  .gitlanguage{
+    width:90%;
+    margin-top: -210px;
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 375px) 
@@ -481,4 +558,25 @@ color:greenyellow
     #footer{
         height:70px;
     }
+
+
+    #githubstatus{
+        height:350px;
+    }
+
+  .gitstats{
+    width:100%;
+    margin-left: 15px;
+   /* margin-top: -50px; */
+  }
+  .gitcontri{
+    width:100%;
+    margin-top: -100px;
+    margin-left: 15px;
+  }
+  .gitlanguage{
+    width:100%;
+    margin-top: -250px;
+    margin-left: 15px;
+  }
 }
