@@ -1661,6 +1661,9 @@ margin-top: 70px;
     width:98%;
     margin-left: 5px;
    }
+   .boot{
+    margin-top: 30px;
+   }
    #projectbox{
     width:98%;
     margin-left: 5px;
@@ -1724,6 +1727,18 @@ margin-top: 70px;
    #lp3{
     width:100%;
     height:50%;
+   }
+   .rp0{
+    margin-top: 15px;
+   }
+   .rp1{
+    margin-top: 15px;
+   }
+   .rp2{
+    margin-top: 15px;
+   }
+   .rp3{
+    margin-top: 15px;
    }
    #statisticsbox{
     width:98%;
@@ -2200,7 +2215,7 @@ justify-items: center;
    #projectbox{
     width:98%;
     /* margin-left: 120px; */
-    height:4150px;
+    height:3800px;
    }
    #projecthead{
     height:40px;
@@ -2210,23 +2225,35 @@ justify-items: center;
     margin-top: -10px;
     
    }
+   #p0{
+    height:1130px;
+   }
+   #lp0{
+    width:100%;
+    height:75%;
+   }
+   #rp0{
+    width:100%;
+    height:25%;
+   }
    #p1{
-    height:900px;
-    margin-bottom: 300px;
+    height:780px;
+    
     flex-direction: column;
    
    }
    #lp1{
     width:100%;
     height:70%;
+    margin-top: -70px;
    }
    #rp1{
     width:100%;
     height:30%;
    }
    #p2{
-    height:950px;
-    margin-top: 750px;
+    height:850px;
+    margin-top: 600px;
     flex-direction: column;
    }
    #lp2{
@@ -2238,8 +2265,8 @@ justify-items: center;
     height:30%;
    }
    #p3{
-    height:830px;
-    margin-top: 1040px;
+    height:780px;
+    margin-top: 780px;
     flex-direction: column;
    }
    #rp3{
@@ -2476,6 +2503,20 @@ height:40px;
         width:150px;
         height:40px;
        }
+
+       .boot{
+        margin-top: 30px;
+       }
+       #boot{
+        height:120px;
+       }
+       #sql{
+        height:120px;
+       }
+       .sql{
+        width:120px;
+        margin-left: 15px;
+       }
        #projectbox{
         width:99%;
         margin-left: 2px;
@@ -2489,9 +2530,20 @@ height:40px;
         height:90%;
         margin-top: -10px;
        }
+       #p0{
+        height:1250px;
+       }
+       #lp0{
+        width:100%;
+        height:75%;
+       }
+       #rp0{
+        width:100%;
+        height:25%;
+       }
        #p1{
-        height:900px;
-       
+        height:850px;
+       margin-top: 430px;
         flex-direction: column;
        }
        #lp1{
@@ -2504,7 +2556,7 @@ height:40px;
        }
        #p2{
         height:950px;
-        margin-top: 750px;
+        margin-top: 790px;
         flex-direction: column;
      
        }
@@ -2518,7 +2570,7 @@ height:40px;
        }
        #p3{
         height:830px;
-        margin-top: 1040px;
+        margin-top: 1080px;
         flex-direction: column;
      
        }
